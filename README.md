@@ -2,7 +2,7 @@
 
 #### [nilababaei.ca](https://nilababaei.ca)
 
-![](logodark_lightbg.svg)
+![](logo.svg)
 
 I believe that the time we spend on this beautiful planet should be of value.
 I believe that we should protect this planet and all that surrounds us.

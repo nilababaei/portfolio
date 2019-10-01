@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #bfbdc1;
+  --color-primary-medium: #6d6a75;
+  --color-primary-dark: #37323e;
+  --color-secondary: #d3B841;
+  --color-accent: #de9e36;
+  --color-white: #ffffff;
+
+  --font-primary: "Proxima Soft", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}

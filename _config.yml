@@ -1,3 +1,22 @@
 permalink: pretty
-
 theme: jekyll_patternbot
+
+patternbot:
+  title: "Nila Babaei"
+  description: |
+    I am a front-end developer who is extremely passionate about animal rights.
+  font_url: "https://use.typekit.net/jpd8nmx.css"
+  colors:
+    background: "--color-white"
+    accent: "--color-secondary"
+    patterns:
+      brand-logos: "--color-secondary"
+  rationales:
+    typefaces.primary: |
+      Proxima Nova Soft was selected because it is a clean and readable font that can be used for headings and body copy.
+    colors.primary: |
+      The primary colours are a set of monochromatic colours which are used for text & background colour.
+    colors.secondary: |
+      The secondary colour is the brand's defined colour which will be used for banners and text decor.
+    colors.accent: |
+      The accent colour is to be used as a hover state throughout the website.
