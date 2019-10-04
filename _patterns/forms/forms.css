@@ -2,11 +2,16 @@
   top: 0;
 }
 
-input, textarea {
+input {
   border-color: var(--color-secondary);
   border-top: 0;
   border-right: 0;
   border-left: 0;
+}
+
+textarea {
+  border-color: var(--color-secondary);
+  border-radius: 10px;
 }
 
 .island-eighth, .island-1-8, input:not([type="checkbox"]), input:not([type="radio"]), textarea {

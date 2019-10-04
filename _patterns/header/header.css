@@ -1,0 +1,22 @@
+.header-banner {
+  background-image: url(/images/header-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+a {
+  color: var(--color-white);
+}
+
+a:hover {
+  color: var(--color-white);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.logo {
+  max-width: 500px;
+  margin: auto;
+}
