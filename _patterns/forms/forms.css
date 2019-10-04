@@ -1,0 +1,22 @@
+[type="radio"] + label::before {
+  top: 0;
+}
+
+input, textarea {
+  border-color: var(--color-secondary);
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+.island-eighth, .island-1-8, input:not([type="checkbox"]), input:not([type="radio"]), textarea {
+  padding-left: 0;
+}
+
+button, input, optgroup, select, textarea {
+  color: var(--color-primary-medium);
+}
+
+[type="radio"] + label::before {
+  border-color: var(--color-primary-dark);
+}

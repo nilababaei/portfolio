@@ -1,0 +1,53 @@
+description: |
+  The form fields are to be used on the "Contact Me" page in order for the user to send a direct message.
+
+  Forms can be combined with buttons.
+
+patterns:
+  multi-input-field:
+    title: "Multi Input Field"
+    description: |
+      The <i>Multi Input Field</i> is to be used on the form in place for a name, email, and subject line on the "Contact Form" page.
+    fields:
+      - name: text
+        type: string
+        example: "Full Name"
+      - name: id
+        type: string
+        example: "text"
+      - name: type
+        type: string
+        example: "Name"
+      - name: placeholder
+        type: string
+        example: "eg. Leia Organa, Han Solo, Luke Skywalker"
+    width: 32em
+  province-field:
+    title: "Province Field"
+    description: |
+      The <i>Province Field</i> is to be used in a situation when a datalist is in need specific to provinces in Canada.
+    width: 32em
+  radio-field:
+    title: "Radio Field"
+    description: |
+      The <i>Radio Field</i> is to be used in a situation when a radio button is in need.
+    fields:
+      - name: text
+        type: string
+        example: "Please check if you want to recieve a monthly newsletter."
+      - name: id
+        type: string
+        example: "verification"
+    width: 32em
+  text-field:
+    title: "Text Field"
+    description: |
+      The <i>Text Field</i> is to be used as the message line in the "Contact Form" page.
+    fields:
+      - name: text
+        type: string
+        example: "Message"
+      - name: id
+        type: string
+        example: "Message"
+    width: 32em

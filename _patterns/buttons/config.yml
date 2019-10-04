@@ -1,0 +1,28 @@
+description: |
+  The buttons chosen for this website have a focus on the minimalist and round style that is incorporated throughout the branding.
+
+  Buttons can be combined with cards, banners, and forms.
+
+patterns:
+  light-btn:
+    title: "Light Button"
+    description: |
+      The <i>Light Button</i> is to be used throughout the website as the default button style. It can be placed on cards & banners with a dark background.
+    fields:
+      - name: text
+        type: string
+        example: "Case Studies"
+      - name: url
+        type: string
+        example: "#"
+  dark-btn:
+    title: "Dark Button"
+    description: |
+      The <i>Dark Button</i> is to be used throughout the website as the default button style. It can be placed on cards & banners with a light background.
+    fields:
+      - name: text
+        type: string
+        example: "Submit"
+      - name: url
+        type: string
+        example: "#"

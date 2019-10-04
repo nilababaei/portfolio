@@ -12,3 +12,21 @@
 html {
   font-family: var(--font-primary);
 }
+
+p, .kilo, .milli, small, .micro, .nano, .pico {
+  color: var(--color-primary-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primary-dark);
+  weight: bold;
+}
+
+mark {
+  background-color: var(--color-secondary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-accent);
+}
