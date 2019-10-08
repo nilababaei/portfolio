@@ -15,6 +15,9 @@ patterns:
       - name: url
         type: string
         example: "#"
+      - name: aria
+        type: string
+        example: "Link to case studies page"
   dark-btn:
     title: "Dark Button"
     description: |
@@ -26,3 +29,6 @@ patterns:
       - name: url
         type: string
         example: "#"
+      - name: aria
+        type: string
+        example: "Link to case studies page"

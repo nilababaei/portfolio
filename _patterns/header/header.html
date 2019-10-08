@@ -1,21 +1,28 @@
+<ul class="skip-links">
+  <li><a href="#main">Jump to main content</a></li>
+  <li><a href="#nav">Jump to navigation</a></li>
+</ul>
+
 <div class="background-color">
   <div class="header-banner gutter-2 pad-t-2 pad-b-2">
-    <ul class="navbar list-group text-right">
-      <li class="{% if page.highlight_nav == 'home' %}current{% endif %}"><a class="current" href="/index/">INFO</a></li>
-      <li class="subnav">
-        <a class="subnavbtn" href="#">CASE STUDIES<i class="fa fa-caret-down"> ▼</i></a>
-        <ul class="subnav-content">
-          <li class="{% if page.highlight_nav == 'athenaxnova' %}current{% endif %}"><a class="nano" href="/athenaxnova/">ATHENAXNOVA</a></li>
-          <li class="{% if page.highlight_nav == 'bearcreeksanctuary' %}current{% endif %}"><a class="nano" href="/bearcreeksanctuary/">BEAR CREEK SANCTUARY</a></li>
-          <li class="{% if page.highlight_nav == 'youthnowcanada' %}current{% endif %}"><a class="nano" href="/youthnowcanada/">YOUTH NOW CANADA</a></li>
-          <li class="{% if page.highlight_nav == 'incubator13' %}current{% endif %}"><a class="nano" href="/incubator13/">INCUBATOR13</a></li>
-        </ul>
-      </li>
-      <li class="{% if page.highlight_nav == 'contact' %}current{% endif %}"><a href="/contact/">CONTACT ME</a></li>
-    </ul>
+    <nav role="navigation" id="nav" tabindex="0">
+      <ul class="navbar list-group text-right">
+        <li class="{% if page.highlight_nav == 'home' %}current{% endif %}"><a class="current" href="/index/" aria-label="Link to home page">HOME</a></li>
+        <li class="subnav">
+          <a class="subnavbtn" href="#">CASE STUDIES<i class="fa fa-caret-down"> ▼</i></a>
+          <ul class="subnav-content">
+            <li class="{% if page.highlight_nav == 'athenaxnova' %}current{% endif %}"><a class="nano" href="/athenaxnova/" aria-label="Link to athena x nova page">ATHENAXNOVA</a></li>
+            <li class="{% if page.highlight_nav == 'bearcreeksanctuary' %}current{% endif %}"><a class="nano" href="/bearcreeksanctuary/" aria-label="Link to bear creek sanctuary page">BEAR CREEK SANCTUARY</a></li>
+            <li class="{% if page.highlight_nav == 'youthnowcanada' %}current{% endif %}"><a class="nano" href="/youthnowcanada/" aria-label="Link to youth now canada page">YOUTH NOW CANADA</a></li>
+            <li class="{% if page.highlight_nav == 'incubator13' %}current{% endif %}"><a class="nano" href="/incubator13/" aria-label="Link to incubator 13 page">INCUBATOR13</a></li>
+          </ul>
+        </li>
+        <li class="{% if page.highlight_nav == 'contact' %}current{% endif %}"><a href="/contact/" aria-label="Link to contact me page">CONTACT ME</a></li>
+      </ul>
+    </nav>
 
     <div class="absolute pin-c">
-      <a href="/">
+      <a href="/" aria-label="Link to home page">
         <img class="img-flex logo" src="/images/logo-light.svg" alt="Logo">
       </a>
     </div>
