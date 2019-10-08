@@ -21,6 +21,12 @@ patterns:
       - name: placeholder
         type: string
         example: "eg. Leia Organa, Han Solo, Luke Skywalker"
+      - name: error
+        type: string
+        example: "Please provide name"
+      - name: aria
+        type: string
+        example: "name-error"
     width: 32em
   province-field:
     title: "Province Field"

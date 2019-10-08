@@ -35,11 +35,11 @@ a:hover {
 
 .logo {
   max-width: 500px;
-  margin: auto;
 }
 
 .social-section {
   width: 25%;
+  animation: swipe-in 2s linear;
 }
 
 .social-icon {
@@ -54,4 +54,56 @@ a:hover {
 
 .arrow {
   width: 40px;
+  animation: swipe-up 2s linear;
+}
+
+.navbar {
+  overflow: hidden;
+  animation: swipe-in 2s linear;
+}
+
+.navbar a {
+  color: var(--color-white);
+}
+
+.subnav {
+  overflow: hidden;
+}
+
+.subnav-content {
+  display: none;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+@keyframes swipe-in {
+
+  0% {
+    transform: translateX(20em);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+
+}
+
+@keyframes swipe-up {
+
+  0% {
+    transform: translateY(20em);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
 }

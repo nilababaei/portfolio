@@ -1,5 +1,5 @@
 <label class="push-1-2" for="province">Provinces & Territories</label>
-<input id="province" list="province-list" required>
+<input id="province" list="province-list" required aria-describedby="province-error">
 <datalist id="province-list">
   <option value="Nunavut">
   <option value="Québec">
@@ -15,3 +15,7 @@
   <option value="Nova Scotia">
   <option value="Prince Edward Island">
 </datalist>
+<p class="error-message milli island-1-4 push-0" id="province-error">
+  <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+  <span class="icon-label">Please choose province</span>
+</p>
