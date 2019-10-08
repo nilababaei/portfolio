@@ -33,6 +33,12 @@ a:hover {
   text-decoration: underline;
 }
 
+.current {
+  color: var(--color-white);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .logo {
   max-width: 500px;
 }

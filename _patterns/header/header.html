@@ -1,21 +1,23 @@
 <div class="background-color">
   <div class="header-banner gutter-2 pad-t-2 pad-b-2">
     <ul class="navbar list-group text-right">
-      <li><a href="#">INFO</a></li>
+      <li class="{% if page.highlight_nav == 'home' %}current{% endif %}"><a class="current" href="/index/">INFO</a></li>
       <li class="subnav">
-        <a class="subnavbtn">CASE STUDIES<i class="fa fa-caret-down"> ▼</i></a>
+        <a class="subnavbtn" href="#">CASE STUDIES<i class="fa fa-caret-down"> ▼</i></a>
         <ul class="subnav-content">
-          <li><a class="nano" href="#">ATHENAXNOVA</a></li>
-          <li><a class="nano" href="#">BEAR CREEK SANCTUARY</a></li>
-          <li><a class="nano" href="#">YOUTH NOW CANADA</a></li>
-          <li><a class="nano" href="#">INCUBATOR13</a></li>
+          <li class="{% if page.highlight_nav == 'athenaxnova' %}current{% endif %}"><a class="nano" href="/athenaxnova/">ATHENAXNOVA</a></li>
+          <li class="{% if page.highlight_nav == 'bearcreeksanctuary' %}current{% endif %}"><a class="nano" href="/bearcreeksanctuary/">BEAR CREEK SANCTUARY</a></li>
+          <li class="{% if page.highlight_nav == 'youthnowcanada' %}current{% endif %}"><a class="nano" href="/youthnowcanada/">YOUTH NOW CANADA</a></li>
+          <li class="{% if page.highlight_nav == 'incubator13' %}current{% endif %}"><a class="nano" href="/incubator13/">INCUBATOR13</a></li>
         </ul>
       </li>
-      <li><a href="#">CONTACT ME</a></li>
+      <li class="{% if page.highlight_nav == 'contact' %}current{% endif %}"><a href="/contact/">CONTACT ME</a></li>
     </ul>
 
     <div class="absolute pin-c">
-      <img class="img-flex logo" src="/images/logo-light.svg" alt="Logo">
+      <a href="/">
+        <img class="img-flex logo" src="/images/logo-light.svg" alt="Logo">
+      </a>
     </div>
 
     <div class="absolute pin-rb social-section island-2">

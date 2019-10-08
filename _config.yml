@@ -20,3 +20,6 @@ patternbot:
       The secondary colour is the brand's defined colour which will be used for banners and text decor.
     colors.accent: |
       The accent colour is to be used as a hover state throughout the website.
+  layouts:
+    default: |
+    The default layout should be used for almost every page, it includes the website's primary header.
