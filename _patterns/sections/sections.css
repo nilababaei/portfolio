@@ -1,0 +1,30 @@
+.background-color-athenaxnova {
+  background-color: var(--color-athenaxnova);
+}
+
+.background-color-bearcreeksanctuary {
+  background-color: var(--color-bearcreeksanctuary);
+}
+
+.background-color-youthnowcanada {
+  background-color: var(--color-youthnowcanada);
+}
+
+.background-color-incubator13 {
+  background-color: var(--color-incubator13);
+}
+
+.code-text {
+  color: var(--color-secondary);
+  opacity: .3;
+  font-weight: 700 !important;
+}
+
+.header-text {
+  font-weight: 400;
+  color: var(--color-primary-dark);
+}
+
+.main-text {
+  color: var(--color-primary-dark);
+}

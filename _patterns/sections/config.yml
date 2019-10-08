@@ -1,0 +1,54 @@
+description: |
+  The sections are to be used throughout the website in areas with large amounts of content where there are multiple elements present.
+
+  Sections are combined with text, images, buttons, cards, and navigation.
+
+patterns:
+  pillars:
+    title: "Pillars Section"
+    description: |
+      The <i>Pillars Section</i> is to be used on the projects page to showcase the three goals of the project. This can be combined with icons and text.
+    fields:
+      - name: bgcolor
+        type: string
+        example: "background-color-athenaxnova"
+  default-text:
+    title: "Default Text Section"
+    description: |
+      The <i>Default Text Section</i> is to be used anywhere on the website where there is a chunk of text that needs to be placed with styling.
+    fields:
+      - name: text
+        type: string
+        example: "I believe that the time we spend on this beautiful planet should be of value. I believe that we should protect this planet and all that surrounds us. I believe that we all have the ability to make a difference and that any small change has a ripple effect for the greater good."
+      - name: code
+        type: string
+        example: "h1"
+      - name: closing-code
+        type: string
+        example: "/h1"
+  header-text:
+    title: "Header Text Style"
+    description: |
+      The <i>Header Text Style</i> is to be used anywhere where there is a header on the website.
+    fields:
+      - name: header
+        type: string
+        example: "Who am I?"
+      - name: code
+        type: string
+        example: "h1"
+      - name: closing-code
+        type: string
+        example: "/h1"
+  project-info:
+    title: "Project Info Section"
+    description: |
+      The <i>Project Info Section</i>
+  tri-project-info:
+    title: "Tri Project Info Section"
+    description: |
+      The <i>Tri Project Info Section</i>
+  quart-project-info:
+    title: "Quart Project Info Section"
+    description: |
+      The <i>Quart Project Info Section</i>
