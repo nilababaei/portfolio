@@ -1,0 +1,32 @@
+.carousel-items > div {
+  display: none;
+}
+
+#image-1-control:checked ~ .carousel-inner #image-1,
+#image-2-control:checked ~ .carousel-inner #image-2,
+#image-3-control:checked ~ .carousel-inner #image-3,
+#image-4-control:checked ~ .carousel-inner #image-4 {
+  display: block;
+}
+
+.carousel-btn {
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+
+#image-1-control:checked ~ .carousel-inner [for="image-1-control"],
+#image-2-control:checked ~ .carousel-inner [for="image-2-control"],
+#image-3-control:checked ~ .carousel-inner [for="image-3-control"],
+#image-4-control:checked ~ .carousel-inner [for="image-4-control"] {
+  background-color: #fff;
+}
+
+ul.breadcrumb li a {
+  color: var(--color-primary);
+  font-weight: medium;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color:  var(--color-primary-medium);
+}

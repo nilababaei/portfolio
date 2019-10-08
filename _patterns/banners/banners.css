@@ -1,0 +1,16 @@
+.background-color {
+  background-color: var(--color-secondary);
+}
+
+h4, h2, p {
+  color: var(--color-white);
+}
+
+h4 {
+  font-weight: bold;
+  opacity: .3;
+}
+
+h2 {
+  font-weight: 400;
+}

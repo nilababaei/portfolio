@@ -1,0 +1,25 @@
+description: |
+  The banner section is to be used where there is need for a call-to-action of some sorts or a section of text that is paired with a background colour.
+
+  Banners can be combined with buttons.
+
+patterns:
+  blockquote:
+    title: "Blockquote"
+    description: |
+      The <i>Blockquote</i> can be used anywhere on the website where there is a stand alone quote being presented.
+    fields:
+      - name: quote
+        type: string
+        example: "“I am a front-end developer who is extremely passionate about animal rights.”"
+  cta:
+    title: "Call To Action"
+    description: |
+      The <i>Call To Action</i> can be used wherever there is need for a link to another page on the website.
+    fields:
+      - name: image
+        type: string
+        example: "circle-placeholder.png"
+      - name: header
+        type: string
+        example: "Placeholder"

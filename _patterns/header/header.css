@@ -4,6 +4,23 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  animation: fade-in 3s linear;
+}
+
+@keyframes fade-in {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+.background-color {
+  var(--color-secondary);
 }
 
 a {
@@ -19,4 +36,22 @@ a:hover {
 .logo {
   max-width: 500px;
   margin: auto;
+}
+
+.social-section {
+  width: 25%;
+}
+
+.social-icon {
+  opacity: .8;
+}
+
+.social-icon:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  transition: all 150ms linear;
+}
+
+.arrow {
+  width: 40px;
 }

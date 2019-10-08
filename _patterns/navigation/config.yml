@@ -1,0 +1,31 @@
+description: |
+  The navigation section is where one can find all the forms of navigation that can be present on this website.
+
+  Navigation can be combined with sections.
+
+patterns:
+  tri-breadcrumbs:
+    title: "Tri Breadcrumbs"
+    description: |
+      The <i>Tri Breadcrumbs</i> can be used in the project information page where there needs to be navigation between three sections.
+  quart-breadcrumbs:
+    title: "Quart Breadcrumbs"
+    description: |
+      The <i>Quart Breadcrumbs</i> can be used in the project information page where there needs to be navigation between four sections.
+  carousel:
+    title: "Image Carousel"
+    description: |
+      The <i>Image Carousel</i> can be used in place of where there needs to be multiple images shown in the form of a slideshow.
+    fields:
+      - name: image-1
+        type: string
+        example: "placeholder-1.jpg"
+      - name: image-2
+        type: string
+        example: "placeholder-2.jpg"
+      - name: image-3
+        type: string
+        example: "placeholder-3.jpg"
+      - name: image-4
+        type: string
+        example: "placeholder-4.jpg"
