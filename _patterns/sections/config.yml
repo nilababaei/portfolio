@@ -23,10 +23,10 @@ patterns:
         example: "I believe that the time we spend on this beautiful planet should be of value. I believe that we should protect this planet and all that surrounds us. I believe that we all have the ability to make a difference and that any small change has a ripple effect for the greater good."
       - name: code
         type: string
-        example: "h1"
+        example: "<h1>"
       - name: closing-code
         type: string
-        example: "/h1"
+        example: "</h1>"
       - name: color
         type: string
         example: "code-text"
@@ -43,10 +43,10 @@ patterns:
         example: "Who am I?"
       - name: code
         type: string
-        example: "h1"
+        example: "<h1>"
       - name: closing-code
         type: string
-        example: "/h1"
+        example: "</h1>"
   project-info:
     title: "Project Info Section"
     description: |
@@ -58,11 +58,11 @@ patterns:
         required: false
       - name: section_code
         type: string
-        example: "h1"
+        example: "<h1>"
         required: false
       - name: section_closing-code
         type: string
-        example: "/h1"
+        example: "</h1>"
         required: false
       - name: section_color
         type: string
@@ -75,8 +75,8 @@ patterns:
   tri-project-info:
     title: "Tri Project Info Section"
     description: |
-      The <i>Tri Project Info Section</i>
+      The <i>Tri Project Info Section</i> will be used on the projects page in order to showcase details and imagery on the subject of the projects purpose & goal, target audience, & concepts. This can be combined with navigation and images.
   quart-project-info:
     title: "Quart Project Info Section"
     description: |
-      The <i>Quart Project Info Section</i>
+      The <i>Quart Project Info Section</i> will be used on the projects page in order to showcase details and imagery on the subject of the projects research, branding, design, & development process. This can be combined with navigation and images.

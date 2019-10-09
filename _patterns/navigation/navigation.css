@@ -23,7 +23,7 @@
 
 ul.breadcrumb li a {
   color: var(--color-primary);
-  font-weight: medium;
+  font-weight: bold;
   text-decoration: none;
 }
 
