@@ -9,9 +9,10 @@ patterns:
     description: |
       The <i>Pillars Section</i> is to be used on the projects page to showcase the three goals of the project. This can be combined with icons and text.
     fields:
-      - name: bgcolor
+      - name: section_bgcolor
         type: string
         example: "background-color-athenaxnova"
+        required: false
   default-text:
     title: "Default Text Section"
     description: |
@@ -26,6 +27,12 @@ patterns:
       - name: closing-code
         type: string
         example: "/h1"
+      - name: color
+        type: string
+        example: "code-text"
+      - name: header
+        type: string
+        example: "Who am I?"
   header-text:
     title: "Header Text Style"
     description: |
@@ -43,7 +50,28 @@ patterns:
   project-info:
     title: "Project Info Section"
     description: |
-      The <i>Project Info Section</i>
+      The <i>Project Info Section</i> is to be presented on every project page to showcase the imagery and description of the project itself. It can be combined with text and navigation.
+    fields:
+      - name: section_text
+        type: string
+        example: "I believe that the time we spend on this beautiful planet should be of value. I believe that we should protect this planet and all that surrounds us. I believe that we all have the ability to make a difference and that any small change has a ripple effect for the greater good."
+        required: false
+      - name: section_code
+        type: string
+        example: "h1"
+        required: false
+      - name: section_closing-code
+        type: string
+        example: "/h1"
+        required: false
+      - name: section_color
+        type: string
+        example: "code-text"
+        required: false
+      - name: section_header
+        type: string
+        example: "Who am I?"
+        required: false
   tri-project-info:
     title: "Tri Project Info Section"
     description: |

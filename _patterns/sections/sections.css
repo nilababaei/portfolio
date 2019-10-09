@@ -14,6 +14,30 @@
   background-color: var(--color-incubator13);
 }
 
+.color-athenaxnova {
+  color: var(--color-athenaxnova);
+  opacity: .3;
+  font-weight: 700 !important;
+}
+
+.color-bearcreeksanctuary {
+  color: var(--color-bearcreeksanctuary);
+  opacity: .3;
+  font-weight: 700 !important;
+}
+
+.color-youthnowcanada {
+  color: var(--color-youthnowcanada);
+  opacity: .3;
+  font-weight: 700 !important;
+}
+
+.color-incubator13 {
+  color: var(--color-incubator13);
+  opacity: .3;
+  font-weight: 700 !important;
+}
+
 .code-text {
   color: var(--color-secondary);
   opacity: .3;

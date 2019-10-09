@@ -1,13 +1,17 @@
 <div class="max-length">
 
-  {% pattern sections/header-text header="Who am I?" code="h1" closing-code="/h1" %}
+  <div class="text-center">
+    <h3 class="{{include.color}} medium push-0 inline"> {{include.code}} </h3>
+    <h1 class="header-text push-0 inline">{{include.header}}</h1>
+    <h3 class="{{include.color}} medium push-0 inline"> {{include.closing-code}} </h3>
+  </div>
 
-  <div class="">
-    <h3 class="code-text push-0">section</h3>
-    <h3 class="code-text push-0">p</h3>
+  <div>
+    <h3 class="{{include.color}} push-0">section</h3>
+    <h3 class="{{include.color}} push-0">p</h3>
     <p class="main-text push-0">{{include.text}}</p>
-    <h3 class="code-text push-0">/p</h3>
-    <h3 class="code-text push-0">/section</h3>
+    <h3 class="{{include.color}} push-0">/p</h3>
+    <h3 class="{{include.color}} push-0">/section</h3>
   </div>
 
 </div>
