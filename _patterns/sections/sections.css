@@ -52,3 +52,12 @@
 .main-text {
   color: var(--color-primary-dark);
 }
+
+[role="tablist"] [aria-selected] {
+  font-weight: bold;
+  color: var(--color-primary-dark);
+}
+
+section:not(:target) {
+  display: none;
+}
