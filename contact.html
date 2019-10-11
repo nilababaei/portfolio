@@ -3,4 +3,44 @@ layout: default
 highlight_nav: contact
 ---
 
-<h1>Contact Me</h1>
+<div id="main-content">
+  <div class="pad-t-2 pad-b-2 max-length">
+    {% pattern sections/header-text header="Contact me!" code="<h1>" closing-code="</h1>" %}
+    <div class="pad-t">
+      {% pattern forms/multi-input-field
+        text="Full Name"
+        id="text"
+        type="Name"
+        placeholder="eg. Leia Organa, Han Solo, Luke Skywalker"
+        error="Please provide name"
+        aria="name-error"
+       %}
+    </div>
+    <div class="pad-t">
+      {% pattern forms/multi-input-field
+        text="Email"
+        id="email"
+        type="Email"
+        placeholder="eg. hey@nilababaei.ca"
+        error="Please provide email"
+        aria="email-error"
+       %}
+    </div>
+    <div class="pad-t">
+      {% pattern forms/multi-input-field
+        text="Subject"
+        id="subject"
+        type="text"
+        placeholder="eg. Web developer needed!"
+        error="Please provide subject"
+        aria="subject-error"
+       %}
+    </div>
+    <div class="pad-t pad-b">
+      {% pattern forms/text-field text="Message" id="Message" %}
+    </div>
+    {% pattern buttons/dark-btn text="Submit" url="#" aria="Button to submit contact form" %}
+  </div>
+
+  {% pattern banners/cta %}
+</div>

@@ -30,3 +30,13 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
   color:  var(--color-primary-medium);
 }
+
+.xmp {
+  font-weight: bold;
+  opacity: .3;
+  color: var(--color-athenaxnova);
+}
+
+.text-color {
+  color: var(--color-primary-dark);
+}

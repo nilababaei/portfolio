@@ -16,10 +16,3 @@ patterns:
     title: "Call To Action"
     description: |
       The <i>Call To Action</i> can be used wherever there is need for a link to another page on the website.
-    fields:
-      - name: image
-        type: string
-        example: "circle-placeholder.png"
-      - name: header
-        type: string
-        example: "Placeholder"
