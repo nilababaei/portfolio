@@ -1,0 +1,86 @@
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-weight: 500;
+}
+
+.nav {
+  text-decoration: none;
+  color: #2A311F;
+}
+
+.nav:hover {
+  font-weight: 900;
+}
+
+.nav-align {
+  text-align: center;
+}
+
+.current {
+  font-weight: 900;
+}
+
+.logo {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url("../images/header-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.grey-text {
+  color: #585858;
+}
+
+.btn-ghost {
+  background-color: #ffffff;
+  color: #585858;
+  border: solid 5px #585858;
+  border-radius: 100px;
+}
+
+.btn-ghost a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-ghost:hover {
+  background-color: #9A9797;
+  color: #ffffff;
+  border-color: #585858;
+}
+
+.btn-ghost:hover a {
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .header-text {
+    padding-left: 0;
+    margin-left: 15px;;
+  }
+
+  .logo {
+    text-align: left;
+    margin: 0;
+  }
+
+  .nav-align {
+    text-align: right;
+  }
+
+}
