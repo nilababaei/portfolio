@@ -12,31 +12,24 @@ patterns:
       - name: section_bgcolor
         type: string
         example: "background-color-athenaxnova"
-        required: false
       - name: cards_image1
         type: string
         example: "circle-placeholder.png"
-        required: false
       - name: cards_image2
         type: string
         example: "circle-placeholder.png"
-        required: false
       - name: cards_image3
         type: string
         example: "circle-placeholder.png"
-        required: false
       - name: cards_header1
         type: string
         example: "Goal 1"
-        required: false
       - name: cards_header2
         type: string
         example: "Goal 2"
-        required: false
       - name: cards_header3
         type: string
         example: "Goal 3"
-        required: false
   default-text:
     title: "Default Text Section"
     description: |
@@ -79,39 +72,30 @@ patterns:
       - name: section_text
         type: string
         example: "I believe that the time we spend on this beautiful planet should be of value. I believe that we should protect this planet and all that surrounds us. I believe that we all have the ability to make a difference and that any small change has a ripple effect for the greater good."
-        required: false
       - name: section_code
         type: string
         example: "<h1>"
-        required: false
       - name: section_closing-code
         type: string
         example: "</h1>"
-        required: false
       - name: section_color
         type: string
         example: "code-text"
-        required: false
       - name: section_header
         type: string
         example: "Who am I?"
-        required: false
       - name: navigation_image1
         type: string
         example: "placeholder-1.jpg"
-        required: false
       - name: navigation_image2
         type: string
         example: "placeholder-2.jpg"
-        required: false
       - name: navigation_image3
         type: string
         example: "placeholder-3.jpg"
-        required: false
       - name: navigation_image4
         type: string
         example: "placeholder-4.jpg"
-        required: false
   tri-project-info:
     title: "Tri Project Info Section"
     description: |
