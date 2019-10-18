@@ -12,22 +12,22 @@ patterns:
       - name: section_bgcolor
         type: string
         example: "background-color-athenaxnova"
-      - name: cards_image1
+      - name: image1
         type: string
         example: "circle-placeholder.png"
-      - name: cards_image2
+      - name: image2
         type: string
         example: "circle-placeholder.png"
-      - name: cards_image3
+      - name: image3
         type: string
         example: "circle-placeholder.png"
-      - name: cards_header1
+      - name: header1
         type: string
         example: "Goal 1"
-      - name: cards_header2
+      - name: header2
         type: string
         example: "Goal 2"
-      - name: cards_header3
+      - name: header3
         type: string
         example: "Goal 3"
   default-text:

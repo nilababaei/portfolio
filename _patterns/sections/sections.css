@@ -57,3 +57,8 @@
   font-weight: bold;
   color: var(--color-primary-dark);
 }
+
+.text-white {
+  font-weight: 200 !important;
+  color: var(--color-white);
+}
