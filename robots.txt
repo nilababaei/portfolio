@@ -1,0 +1,6 @@
+# robotstxt.org
+
+Sitemap: http://nilababaei.ca/sitemap.xml
+
+User-Agent: *
+Disallow:

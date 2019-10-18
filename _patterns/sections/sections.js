@@ -1,12 +1,3 @@
-tab.addEventListener('keydown', e => {
-  let index = Array.prototype.indexOf.call(tabs, e.currentTarget);
-  let dir = e.which === 37 ? index - 1 : e.which === 39 ? index + 1 : e.which === 40 ? 'down' : null;
-  if (dir !== null) {
-    e.preventDefault();
-    dir === 'down' ? panels[i].focus() : tabs[dir] ? switchTab(e.currentTarget, tabs[dir]) : void 0;
-  }
-});
-
 (function() {
   // Get relevant elements and collections
   const tabbed = document.querySelector('.tabbed');

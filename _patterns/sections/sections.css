@@ -57,7 +57,3 @@
   font-weight: bold;
   color: var(--color-primary-dark);
 }
-
-section:not(:target) {
-  display: none;
-}

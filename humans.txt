@@ -1,0 +1,64 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Nila Babaei <hey@nilababaei.ca>
+Site: http://nilababaei.ca
+GitHub: https://github.com/nilababaei
+Twitter: @nilababaei
+Location: Ottawa, Canada
+
+##Youth Now Canada Team##
+
+Interactive Media & Design: Wilfred Turcotte
+LinkedIn: https://www.linkedin.com/in/wilfred-turcotte-732235113/
+Location: Ottawa, Canada
+
+Mobile Application Design & Development: Mohammed Akel
+LinkedIn: https://www.linkedin.com/in/mohamad-akel-348259124/
+Location: Ottawa, Canada
+
+##Incubator13 Team##
+
+Interactive Media & Design: Wilfred Turcotte
+LinkedIn: https://www.linkedin.com/in/wilfred-turcotte-732235113/
+Location: Ottawa, Canada
+
+Mobile Application Design & Development: Joao Guilherme Tiburski Nabosne
+LinkedIn: https://www.linkedin.com/in/joao-nabosne/
+Location: Ottawa, Canada
+
+Computer Programming: Rodrigo Eltz
+LinkedIn: https://www.linkedin.com/in/reltz/
+Location: Ottawa, Canada
+
+Program: Kyla Gaudreau
+LinkedIn: https://www.linkedin.com/in/kyla-gaudreau/
+Location: Ottawa, Canada
+
+Public Relations: Maya Mills
+LinkedIn: https://www.linkedin.com/in/maya-mills/
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+(This is the place where you put sources of things)
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Atom Text Editor
+- Github
+
+## Hosting
+
+- Netlify <https://www.netlify.com>
+- Github <https://github.com>
+- Hover <https://www.hover.com>
+- CloudFlare <https://cloudflare.com>
+- FastMail <https://www.fastmail.com>
