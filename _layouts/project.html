@@ -1,3 +1,87 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Case Study · Nila Babaei</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="ICBM" content="45.41117.-75.69812">
+  <meta name="geo.position" content="45.41117.-75.69812">
+  <meta name="geo.region" content="ca-on">
+  <meta name="geo.placename" content="Ottawa">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nila Babaei · A front-end developer who is extremely passionate about animal rights">
+  <meta property="og:url" content="https://nilababaei.ca/">
+  <meta property="og:image" content="https://nilababaei.ca/images/logo.svg">
+  <meta property="og:site_name" content="Nila Babaei">
+  <meta property="og:description" content="A front-end developer who specializes in HTML5 and CSS.">
+  <meta property="og:locale" content="en_CA">
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="https://use.typekit.net/jpd8nmx.css" rel="stylesheet">
+</head>
+<body>
+
+  {% pattern header/header %}
+  <div role="main" id="main" tabindex="0">
+    {{content}}
+  </div>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Nila Babaei",
+      "author": {
+        "@type": "Person",
+        "@id": "#nilababaei"
+      },
+      "description": "A front-end developer who is extremely passionate about animal rights.",
+      "url": "https://nilababaei.ca",
+      "keywords": "HTML, CSS, Developper, Wordpress, Design, UI, UX, Case Studies"
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "#nilababaei",
+      "name": "Nila Babaei",
+      "email": "hello@nilababaei.ca",
+      "url": "https://nilababaei.ca"
+      "address": {
+        "@type": "Text",
+        "addressRegion": "Ottawa",
+        "addressCountry": "Canada"
+      }
+      "logo": "https://nilababaei.ca/images/logo.svg",
+      "slogan": "A front-end developer who is extremely passionate about animal rights."
+      "jobTitle": {
+        "@type": "DefinedTerm",
+        "name": "Front End Developer"
+      }
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Front End Developer",
+        "educationRequirements": "Advanced Diploma in Graphic Design"
+      },
+      "occupationLocation": {
+        "@type": "Country",
+        "name": "Canada",
+        "sameAs": "https://www.wikidata.org/wiki/Q16"
+      },
+      "qualifications": "Experience with HTML and CSS",
+      "skills": ["Communication, Problem Solving, Thinking Skills, Team Work, Time Management, Responsibility, Web Design, Web Development, Accessibility Testing, Responsive Web Design"]
+      }
+    }
+  </script>
+
+  <script src="/js/main.js"></script>
+
+</body>
+</html>
