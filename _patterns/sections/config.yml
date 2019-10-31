@@ -35,7 +35,13 @@ patterns:
     description: |
       The <i>Default Text Section</i> is to be used anywhere on the website where there is a chunk of text that needs to be placed with styling.
     fields:
-      - name: text
+      - name: text1
+        type: string
+        example: "I believe that the time we spend on this beautiful planet should be of value. I believe that we should protect this planet and all that surrounds us. I believe that we all have the ability to make a difference and that any small change has a ripple effect for the greater good."
+      - name: text2
+        type: string
+        example: "I believe that the time we spend on this beautiful planet should be of value. I believe that we should protect this planet and all that surrounds us. I believe that we all have the ability to make a difference and that any small change has a ripple effect for the greater good."
+      - name: text3
         type: string
         example: "I believe that the time we spend on this beautiful planet should be of value. I believe that we should protect this planet and all that surrounds us. I believe that we all have the ability to make a difference and that any small change has a ripple effect for the greater good."
       - name: code
@@ -44,9 +50,6 @@ patterns:
       - name: closing-code
         type: string
         example: "</h1>"
-      - name: color
-        type: string
-        example: "code-text"
       - name: header
         type: string
         example: "Who am I?"
@@ -100,7 +103,99 @@ patterns:
     title: "Tri Project Info Section"
     description: |
       The <i>Tri Project Info Section</i> will be used on the projects page in order to showcase details and imagery on the subject of the projects purpose & goal, target audience, & concepts. This can be combined with navigation and images.
+    fields:
+      - name: image1
+        type: string
+        example: "placeholder-5.jpg"
+      - name: image2
+        type: string
+        example: "placeholder-5.jpg"
+      - name: image3
+        type: string
+        example: "placeholder-5.jpg"
+      - name: purpose
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      - name: goal
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      - name: audience
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      - name: concepts
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   quart-project-info:
     title: "Quart Project Info Section"
     description: |
       The <i>Quart Project Info Section</i> will be used on the projects page in order to showcase details and imagery on the subject of the projects research, branding, design, & development process. This can be combined with navigation and images.
+    fields:
+      - name: audience
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      - name: sitemap
+        type: string
+        example: "placeholder-1.jpg"
+      - name: branding
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      - name: moodboard
+        type: string
+        example: "placeholder-1.jpg"
+      - name: prototype
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      - name: wireframes
+        type: string
+        example: "placeholder-1.jpg"
+      - name: development1
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      - name: development2
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      - name: development3
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      - name: development4
+        type: string
+        example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      - name: librarylink
+        type: string
+        example: "#"
+      - name: websitelink
+        type: string
+        example: "#"
+      - name: list1
+        type: string
+        example: "•	setting up hosting through Netlify"
+      - name: list2
+        type: string
+        example: "•	setting up hosting through Netlify"
+      - name: list3
+        type: string
+        example: "•	setting up hosting through Netlify"
+      - name: list4
+        type: string
+        example: "•	setting up hosting through Netlify"
+      - name: list5
+        type: string
+        example: "•	setting up hosting through Netlify"
+      - name: list6
+        type: string
+        example: "•	setting up hosting through Netlify"
+      - name: list7
+        type: string
+        example: "•	setting up hosting through Netlify"
+      - name: list8
+        type: string
+        example: "•	setting up hosting through Netlify"
+      - name: list9
+        type: string
+        example: "•	setting up hosting through Netlify"
+      - name: list10
+        type: string
+        example: "•	setting up hosting through Netlify"
+      - name: hidden
+        type: string
+        example: "null"

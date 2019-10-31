@@ -45,7 +45,7 @@
 }
 
 .header-text {
-  font-weight: 400;
+  font-weight: 800;
   color: var(--color-primary-dark);
 }
 
@@ -61,4 +61,8 @@
 .text-white {
   font-weight: 200 !important;
   color: var(--color-white);
+}
+
+.pillar-text {
+  font-weight: 800 !important;
 }
