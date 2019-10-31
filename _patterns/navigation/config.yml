@@ -4,14 +4,6 @@ description: |
   Navigation can be combined with sections.
 
 patterns:
-  tri-breadcrumbs:
-    title: "Tri Breadcrumbs"
-    description: |
-      The <i>Tri Breadcrumbs</i> can be used in the project information page where there needs to be navigation between three sections.
-  quart-breadcrumbs:
-    title: "Quart Breadcrumbs"
-    description: |
-      The <i>Quart Breadcrumbs</i> can be used in the project information page where there needs to be navigation between four sections.
   carousel:
     title: "Image Carousel"
     description: |
@@ -29,3 +21,17 @@ patterns:
       - name: image4
         type: string
         example: "placeholder-4.jpg"
+  tabbed-carousel:
+    title: "Tabbed Image Carousel"
+    description: |
+      The <i>Tabbed Image Carousel</i> can be used in place of where there needs to be multiple images shown in the form of a slideshow under the tabbed interface section.
+    fields:
+      - name: image5
+        type: string
+        example: "placeholder-1.jpg"
+      - name: image6
+        type: string
+        example: "placeholder-2.jpg"
+      - name: image7
+        type: string
+        example: "placeholder-3.jpg"
