@@ -203,3 +203,7 @@ patterns:
       - name: hidden
         type: string
         example: "null"
+  seo:
+    title: "SEO"
+    description: |
+      The <i>SEO</i> will be used on every layout page as it contains the general data for search engine optimization.
