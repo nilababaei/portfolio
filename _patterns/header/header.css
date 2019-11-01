@@ -82,10 +82,6 @@ a:hover {
   z-index: 1;
 }
 
-.subnav-content a {
-
-}
-
 .subnav:hover .subnav-content {
   display: block;
 }

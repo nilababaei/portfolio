@@ -2,3 +2,10 @@ description: |
   The header is created with a simple design that is meant to match the style of the business through simplicity and colour.
 
   The header can be combined with navigation, icons, images, and animation.
+
+patterns:
+  header:
+    title: "Header"
+    description: |
+      The <i>Header</i> is created with a simple design that is meant to match the style of the business through simplicity and colour. The header can be combined with navigation, icons, images, and animation.
+    height: "500"
