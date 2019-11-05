@@ -32,3 +32,7 @@ patterns:
       - name: aria
         type: string
         example: "Link to case studies page"
+  form-btn:
+    title: "Form Button"
+    description: |
+      The <i>Form Button</i> is to be used on the form as it includes the type to create a workable form.

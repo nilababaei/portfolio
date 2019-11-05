@@ -14,13 +14,13 @@ patterns:
         example: "background-color-athenaxnova"
       - name: image1
         type: string
-        example: "circle-placeholder.png"
+        example: "customers"
       - name: image2
         type: string
-        example: "circle-placeholder.png"
+        example: "computer"
       - name: image3
         type: string
-        example: "circle-placeholder.png"
+        example: "brand-identity"
       - name: header1
         type: string
         example: "Goal 1"
@@ -89,16 +89,16 @@ patterns:
         example: "Who am I?"
       - name: navigation_image1
         type: string
-        example: "placeholder-1.jpg"
+        example: "placeholder-3by2.jpg"
       - name: navigation_image2
         type: string
-        example: "placeholder-2.jpg"
+        example: "placeholder-3by2.jpg"
       - name: navigation_image3
         type: string
-        example: "placeholder-3.jpg"
+        example: "placeholder-3by2.jpg"
       - name: navigation_image4
         type: string
-        example: "placeholder-4.jpg"
+        example: "placeholder-3by2.jpg"
   tabbed-interface:
     title: "Tabbed Interface Section"
     description: |
@@ -106,13 +106,13 @@ patterns:
     fields:
       - name: image1
         type: string
-        example: "placeholder-5.jpg"
+        example: "placeholder-1by1.jpg"
       - name: image2
         type: string
-        example: "placeholder-5.jpg"
+        example: "placeholder-1by1.jpg"
       - name: image3
         type: string
-        example: "placeholder-5.jpg"
+        example: "placeholder-1by1.jpg"
       - name: purpose
         type: string
         example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -130,28 +130,28 @@ patterns:
         example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       - name: sitemap
         type: string
-        example: "placeholder-1.jpg"
+        example: "placeholder-3by2.jpg"
       - name: branding
         type: string
         example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       - name: moodboard
         type: string
-        example: "placeholder-1.jpg"
+        example: "placeholder-3by2.jpg"
       - name: prototype
         type: string
         example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       - name: navigation_image1
         type: string
-        example: "placeholder-1.jpg"
-      - name: navigation_image2
+        example: "placeholder-3by2.jpg"
+      - name: navigation_image5
         type: string
-        example: "placeholder-2.jpg"
-      - name: navigation_image3
+        example: "placeholder-3by2.jpg"
+      - name: navigation_image6
         type: string
-        example: "placeholder-3.jpg"
-      - name: navigation_image4
+        example: "placeholder-3by2.jpg"
+      - name: navigation_image7
         type: string
-        example: "placeholder-4.jpg"
+        example: "placeholder-3by2.jpg"
       - name: development1
         type: string
         example: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."

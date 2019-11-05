@@ -7,17 +7,17 @@
   <div class="header-banner gutter-2 pad-t-2 pad-b-2">
     <nav class="nav-contain" role="navigation" id="nav" tabindex="0">
       <ul class="navbar list-group text-right">
-        <li class="{% if page.highlight_nav == 'home' %}current{% endif %}"><a class="current" href="/index/" aria-label="Link to home page">HOME</a></li>
-        <li class="subnav">
-          <a class="subnavbtn" href="#">CASE STUDIES</a>
-          <ul class="subnav-content list-group">
-            <li class="{% if page.highlight_nav == 'athenaxnova' %}current{% endif %}"><a class="nano" href="/athenaxnova/" aria-label="Link to athena x nova page">ATHENAXNOVA</a></li>
-            <li class="{% if page.highlight_nav == 'bearcreeksanctuary' %}current{% endif %}"><a class="nano" href="/bearcreeksanctuary/" aria-label="Link to bear creek sanctuary page">BEAR CREEK SANCTUARY</a></li>
-            <li class="{% if page.highlight_nav == 'youthnowcanada' %}current{% endif %}"><a class="nano" href="/youthnowcanada/" aria-label="Link to youth now canada page">YOUTH NOW CANADA</a></li>
-            <li class="{% if page.highlight_nav == 'incubator13' %}current{% endif %} hidden"><a class="hidden nano" href="/incubator13/" aria-label="Link to incubator 13 page">INCUBATOR13</a></li>
+        <li class="push-1-4 {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="nav-hover" href="/index/" aria-label="Link to home page">HOME</a></li>
+        <li class="push-1-4">
+          <a href="#">CASE STUDIES</a>
+          <ul class="list-group push-0">
+            <li class="{% if page.highlight_nav == 'athenaxnova' %}current{% endif %}"><a class="nano nav-hover" href="/athenaxnova/" aria-label="Link to athena x nova page">ATHENAXNOVA</a></li>
+            <li class="{% if page.highlight_nav == 'bearcreeksanctuary' %}current{% endif %}"><a class="nano nav-hover" href="/bearcreeksanctuary/" aria-label="Link to bear creek sanctuary page">BEAR CREEK SANCTUARY</a></li>
+            <li class="{% if page.highlight_nav == 'youthnowcanada' %}current{% endif %}"><a class="nano nav-hover" href="/youthnowcanada/" aria-label="Link to youth now canada page">YOUTH NOW CANADA</a></li>
+            <li class="{% if page.highlight_nav == 'incubator13' %}current{% endif %} hidden"><a class="hidden nano nav-hover" href="/incubator13/" aria-label="Link to incubator 13 page">INCUBATOR13</a></li>
           </ul>
         </li>
-        <li class="{% if page.highlight_nav == 'contact' %}current{% endif %}"><a href="/contact/" aria-label="Link to contact me page">CONTACT ME</a></li>
+        <li class="{% if page.highlight_nav == 'contact' %}current{% endif %}"><a class="nav-hover" href="/contact/" aria-label="Link to contact me page">CONTACT ME</a></li>
       </ul>
     </nav>
 
@@ -27,33 +27,33 @@
       </a>
     </div>
 
-    <div class="absolute pin-rb social-section island-2">
-      <div class="grid">
-        <a class="unit xs-1-4 social-icon gutter-1-8" href="mailto:hello@nilababaei.ca" target="_blank" >
-          <img class="img-flex" src="/images/email.svg" alt="Link to Github Profile">
+    <div class="absolute pin-bc pad-b-2">
+      <div class="inline">
+        <a class="island-1-8" href="mailto:hello@nilababaei.ca" target="_blank" >
+          <i class="icon i-32">
+            <svg class="social-icon"><use xlink:href="/images/icons.svg#email" /></svg>
+          </i>
         </a>
 
-        <a class="unit xs-1-4 social-icon gutter-1-8" href="https://www.linkedin.com/in/nilababaei/" target="_blank" >
-          <img class="img-flex" src="/images/linkedin.svg" alt="Link to LinkedIn Profile">
+        <a class="island-1-8" href="https://www.linkedin.com/in/nilababaei/" target="_blank" >
+          <i class="icon i-32">
+            <svg class="social-icon"><use xlink:href="/images/icons.svg#linkedin" /></svg>
+          </i>
         </a>
 
-        <a class="unit xs-1-4 social-icon gutter-1-8" href="https://github.com/nilababaei" target="_blank" >
-          <img class="img-flex" src="/images/github.svg" alt="Link to Github Profile">
+        <a class="island-1-8" href="https://github.com/nilababaei" target="_blank" >
+          <i class="icon i-32">
+            <svg class="social-icon"><use xlink:href="/images/icons.svg#github" /></svg>
+          </i>
         </a>
 
-        <a class="unit xs-1-4 social-icon gutter-1-8" href="https://www.behance.net/babaeinila" target="_blank" >
-          <img class="img-flex" src="/images/behance.svg" alt="Link to Behance Profile">
+        <a class="island-1-8" href="https://www.behance.net/babaeinila" target="_blank" >
+          <i class="icon i-32">
+            <svg class="social-icon"><use xlink:href="/images/icons.svg#behance" /></svg>
+          </i>
         </a>
       </div>
     </div>
-
-<!--
-    <div class="absolute pin-bc island-2">
-      <a href="#main-content">
-        <img class="arrow img-flex" src="/images/down-arrow.svg" alt="Presentation">
-      </a>
-    </div>
--->
 
   </div>
 </div>

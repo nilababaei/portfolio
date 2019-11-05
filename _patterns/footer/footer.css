@@ -1,0 +1,25 @@
+.social-icon:hover {
+  transform: scale(1.05);
+  transition: all 150ms linear;
+}
+
+.footer {
+  background-color: var(--color-primary-dark);
+}
+
+.logo-footer {
+  max-width: 200px !important;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo-footer {
+    margin: 0;
+  }
+
+  .social-section {
+    text-align: right;
+  }
+
+}

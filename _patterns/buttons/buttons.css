@@ -22,3 +22,25 @@
   color: var(--color-primary-dark);
   text-decoration: none;
 }
+
+.dark-btn:hover {
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+.light-btn:hover {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+.light-btn:hover a {
+  color: var(--color-white);
+}
+
+.form-btn {
+  color: var(--color-primary-dark) !important;
+}
+
+.form-btn:hover {
+  color: var(--color-white) !important;
+}

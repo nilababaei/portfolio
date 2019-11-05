@@ -6,40 +6,42 @@ highlight_nav: contact
 <div id="main-content">
   <div class="pad-t-2 pad-b-2 max-length gutter">
     {% pattern sections/header-text header="Contact me!" code="<h1>" closing-code="</h1>" %}
-    <div class="pad-t">
-      {% pattern forms/multi-input-field
-        text="Full Name"
-        id="text"
-        type="Name"
-        placeholder="eg. Leia Organa, Han Solo, Luke Skywalker"
-        error="Please provide name"
-        aria="name-error"
-       %}
-    </div>
-    <div class="pad-t">
-      {% pattern forms/multi-input-field
-        text="Email"
-        id="email"
-        type="Email"
-        placeholder="eg. hey@nilababaei.ca"
-        error="Please provide email"
-        aria="email-error"
-       %}
-    </div>
-    <div class="pad-t">
-      {% pattern forms/multi-input-field
-        text="Subject"
-        id="subject"
-        type="text"
-        placeholder="eg. Web developer needed!"
-        error="Please provide subject"
-        aria="subject-error"
-       %}
-    </div>
-    <div class="pad-t pad-b">
-      {% pattern forms/text-field text="Message" id="Message" %}
-    </div>
-    {% pattern buttons/dark-btn text="Submit" url="#" aria="Button to submit contact form" %}
+    <form method="POST" action="https://formspree.io/xqkzvryj">
+      <div class="pad-t">
+        {% pattern forms/multi-input-field
+          text="Full Name"
+          id="text"
+          type="Name"
+          placeholder="eg. Leia Organa, Han Solo, Luke Skywalker"
+          error="Please provide name"
+          aria="name-error"
+         %}
+      </div>
+      <div class="pad-t">
+        {% pattern forms/multi-input-field
+          text="Email"
+          id="email"
+          type="Email"
+          placeholder="eg. hello@nilababaei.ca"
+          error="Please provide email"
+          aria="email-error"
+         %}
+      </div>
+      <div class="pad-t">
+        {% pattern forms/multi-input-field
+          text="Subject"
+          id="subject"
+          type="text"
+          placeholder="eg. Web developer needed!"
+          error="Please provide subject"
+          aria="subject-error"
+         %}
+      </div>
+      <div class="pad-t pad-b">
+        {% pattern forms/text-field text="Message" id="Message" %}
+      </div>
+      {% pattern buttons/form-btn %}
+    </form>
   </div>
 
   {% pattern banners/cta %}
