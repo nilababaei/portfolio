@@ -34,7 +34,7 @@ ul.breadcrumb li a {
 }
 
 ul.breadcrumb li a:hover {
-  color:  var(--color-primary-medium);
+  color:  var(--color-secondary);
 }
 
 .xmp {
@@ -45,4 +45,94 @@ ul.breadcrumb li a:hover {
 
 .text-color {
   color: var(--color-primary-dark);
+}
+
+.img-color .zoom-icon {
+  display: none;
+}
+
+.img-color:hover .zoom-icon {
+  display: block;
+  cursor: pointer;
+}
+
+/* The Modal Image CSS */
+#myImg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.img-color {
+  background-color: var(--color-secondary);
+}
+
+.img-color:hover {
+  opacity: 0.9;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: var(--color-secondary);
+  background-color: rgba(211,184,65,0.9);
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Add Animation */
+.modal-content {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: var(--color-white);
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: var(--color-white);
+  transform: scale(1.5);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
 }

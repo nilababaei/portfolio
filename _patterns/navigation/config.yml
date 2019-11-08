@@ -9,16 +9,16 @@ patterns:
     description: |
       The <i>Image Carousel</i> can be used in place of where there needs to be multiple images shown in the form of a slideshow.
     fields:
-      - name: image1
+      - name: navigation_image1
         type: string
         example: "placeholder-3by2.jpg"
-      - name: image2
+      - name: navigation_image2
         type: string
         example: "placeholder-3by2.jpg"
-      - name: image3
+      - name: navigation_image3
         type: string
         example: "placeholder-3by2.jpg"
-      - name: image4
+      - name: navigation_image4
         type: string
         example: "placeholder-3by2.jpg"
   tabbed-carousel:
@@ -35,3 +35,15 @@ patterns:
       - name: image7
         type: string
         example: "placeholder-3by2.jpg"
+  modal-image:
+    title: "Modal Image"
+    description: |
+      The <i>Modal Image</i> can be used in place of where there needs to be an image that expands on click.
+    width: 36em;
+    fields:
+      - name: navigation_image
+        type: string
+        example: "placeholder-3by2.jpg"
+      - name: aria
+        type: string
+        example: "Presentation"

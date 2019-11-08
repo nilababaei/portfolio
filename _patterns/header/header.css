@@ -28,9 +28,10 @@ a {
 }
 
 .nav-hover:hover {
-  color: var(--color-primary-dark);
+  color: var(--color-secondary);
   font-weight: bold;
   text-decoration: none;
+  transition: all 250ms linear;
 }
 
 .current {
@@ -43,9 +44,14 @@ a {
   max-width: 500px;
 }
 
-.social-icon:hover {
+.logo:hover {
   transform: scale(1.05);
-  transition: all 150ms linear;
+  transition: all 250ms linear;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  transition: all 250ms linear;
 }
 
 .navbar a {

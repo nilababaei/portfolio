@@ -21,20 +21,24 @@
 .btn-ghost:hover a {
   color: var(--color-primary-dark);
   text-decoration: none;
+  transition: all 250ms linear;
 }
 
 .dark-btn:hover {
   background-color: var(--color-white);
   border-color: var(--color-white);
+  transition: all 250ms linear;
 }
 
 .light-btn:hover {
   background-color: var(--color-primary-dark);
   border-color: var(--color-primary-dark);
+  transition: all 250ms linear;
 }
 
 .light-btn:hover a {
   color: var(--color-white);
+  transition: all 250ms linear;
 }
 
 .form-btn {
@@ -43,4 +47,5 @@
 
 .form-btn:hover {
   color: var(--color-white) !important;
+  transition: all 250ms linear;
 }

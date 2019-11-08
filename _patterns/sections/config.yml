@@ -87,18 +87,6 @@ patterns:
       - name: section_header
         type: string
         example: "Who am I?"
-      - name: navigation_image1
-        type: string
-        example: "placeholder-3by2.jpg"
-      - name: navigation_image2
-        type: string
-        example: "placeholder-3by2.jpg"
-      - name: navigation_image3
-        type: string
-        example: "placeholder-3by2.jpg"
-      - name: navigation_image4
-        type: string
-        example: "placeholder-3by2.jpg"
   tabbed-interface:
     title: "Tabbed Interface Section"
     description: |

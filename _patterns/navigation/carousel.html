@@ -8,20 +8,20 @@
 
     <div class="carousel-inner relative">
       <div class="carousel-items">
-        <div class="carousel-item embed embed-3by2" id="image-1">
-          <img class="embed-item" src="/images/{{include.image1}}" alt="Image of project piece">
+        <div class="carousel-item" id="image-1">
+          {% pattern navigation/modal-image navigation_image=include.navigation_image1 aria="Image of project piece" %}
         </div>
 
-        <div class="carousel-item embed embed-3by2" id="image-2">
-          <img class="embed-item" src="/images/{{include.image2}}" alt="Image of project piece">
+        <div class="carousel-item" id="image-2">
+          {% pattern navigation/modal-image navigation_image=include.navigation_image2 aria="Image of project piece" %}
         </div>
 
-        <div class="carousel-item embed embed-3by2" id="image-3">
-          <img class="embed-item" src="/images/{{include.image3}}" alt="Image of project piece">
+        <div class="carousel-item" id="image-3">
+          {% pattern navigation/modal-image navigation_image=include.navigation_image3 aria="Image of project piece" %}
         </div>
 
-        <div class="carousel-item embed embed-3by2" id="image-4">
-          <img class="embed-item" src="/images/{{include.image4}}" alt="Image of project piece">
+        <div class="carousel-item" id="image-4">
+          {% pattern navigation/modal-image navigation_image=include.navigation_image4 aria="Image of project piece" %}
         </div>
       </div>
 
