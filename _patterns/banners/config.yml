@@ -16,3 +16,19 @@ patterns:
     title: "Call To Action"
     description: |
       The <i>Call To Action</i> can be used wherever there is need for a link to another page on the website.
+    fields:
+      - name: header
+        type: string
+        example: "Want to see my work?"
+      - name: text
+        type: string
+        example: "Check out some of the project I have completed the past few years! They range from work I have partnered up with to complete for non-for-profit organizations to working on school assignments to create a phenominal final product."
+      - name: button_text
+        type: string
+        example: "Case Studies"
+      - name: button_url
+        type: string
+        example: "/athenaxnova/"
+      - name: button_aria
+        type: string
+        example: "Link to case studies page"

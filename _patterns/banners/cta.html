@@ -1,7 +1,7 @@
 <div class="background-color pad-t-2 pad-b-2 gutter">
   <div class="max-length">
-    <h2 class="bold push-0">Want to see my work?</h2>
-    <p class="push-1-2">Check out some of the project I have completed the past few years! They range from work I have partnered up with to complete for non-for-profit organizations to working on school assignments to create a phenominal final product.</p>
-    {% pattern buttons/dark-btn text="Case Studies" url="/athenaxnova/" aria="Link to case studies page" %}
+    <h2 class="bold push-0">{{include.header}}</h2>
+    <p class="push-1-2">{{include.text}}</p>
+    {% pattern buttons/dark-btn text=include.button_text url=include.button_url aria=include.button_aria %}
   </div>
 </div>
