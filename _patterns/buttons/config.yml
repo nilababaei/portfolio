@@ -36,3 +36,17 @@ patterns:
     title: "Form Button"
     description: |
       The <i>Form Button</i> is to be used on the form as it includes the type to create a workable form.
+  card-btn:
+    title: "Card Button"
+    description: |
+      The <i>Card Button</i> is to be used on any cards that link to a project page.
+    fields:
+      - name: text
+        type: string
+        example: "Check it out!"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria
+        type: string
+        example: "Link to case studies page"

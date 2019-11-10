@@ -1,0 +1,26 @@
+description: |
+  The cards section is to be used where there is need for a call-to-action to include a card that will link to a project page.
+
+  Cards can be combined with buttons, and be placed in banners and sections.
+
+patterns:
+  project-card:
+    title: "Project Card"
+    description: |
+      The <i>Project Card</i> can be used in order to navigate the user to the related project page.
+    fields:
+      - name: title
+        type: string
+        example: "AthenaXNova"
+      - name: description
+        type: string
+        example: "The focus of this project is on the design of an eCommerce website using a pattern library."
+      - name: image
+        type: string
+        example: "athenaxnova/phone-3-1by1.jpg"
+      - name: button_text
+        type: string
+        example: "Check it out!"
+      - name: button_url
+        type: string
+        example: "/athenaxnova/"

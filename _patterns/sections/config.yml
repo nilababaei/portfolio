@@ -191,6 +191,18 @@ patterns:
       - name: hidden
         type: string
         example: "null"
+  project-cards:
+    title: "Project Cards"
+    description: |
+      The <i>Project Cards</i> will be used as a call-to-action for the projects.
+  video:
+    title: "Video"
+    description: |
+      The <i>Video</i> can be used for any pages that contain videos.
+    fields:
+      - name: video
+        type: string
+        example: "bearcreeksanctuary-parallax.mp4"
   seo:
     title: "SEO"
     description: |
