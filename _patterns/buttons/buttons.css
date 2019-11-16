@@ -9,13 +9,13 @@
 }
 
 .card-btn {
-  background-color: var(--color-white);
-  border-color: var(--color-white);
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
   border-radius: 100px;
 }
 
 .card-btn a {
-  color: var(--color-primary-dark);
+  color: var(--color-white);
 }
 
 .dark-btn {
@@ -52,13 +52,13 @@
 }
 
 .card-btn:hover {
-  background-color: var(--color-primary-dark);
-  border-color: var(--color-white);
+  background-color: var(--color-white);
+  border-color: var(--color-primary-dark);
   transition: all 250ms linear;
 }
 
 .card-btn:hover a {
-  color: var(--color-white);
+  color: var(--color-primary-dark);
   transition: all 250ms linear;
 }
 

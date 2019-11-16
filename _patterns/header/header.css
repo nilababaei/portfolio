@@ -1,5 +1,5 @@
 .header-banner {
-  background-image: url(/images/bg-image.jpg);
+  background-image: url(/images/bg-image3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,7 +24,7 @@
 }
 
 a {
-  color: var(--color-primary-dark);
+  color: var(--color-white);
 }
 
 .nav-hover:hover {
@@ -35,7 +35,7 @@ a {
 }
 
 .current {
-  color: var(--color-primary-dark);
+  color: var(--color-white);
   font-weight: bold;
   text-decoration: none;
 }
@@ -55,7 +55,7 @@ a {
 }
 
 .navbar a {
-  color: var(--color-primary-dark);
+  color: var(--color-white);
 }
 
 .skip-links a {
