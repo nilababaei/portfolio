@@ -4,10 +4,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  animation: fade-in 2000ms linear;
 }
 
-@keyframes fade-in {
+/*@keyframes fade-in {
 
   0% {
     opacity: 0;
@@ -17,18 +16,19 @@
     opacity: 1;
   }
 
-}
+}*/
 
-.background-color {
-  background-color: var(--color-secondary);
-}
-
-a {
-  color: var(--color-white);
+.navbar a {
+  color: var(--color-primary-dark);
 }
 
 .nav-hover:hover {
-  color: var(--color-secondary);
+  background-color: var(--color-primary-dark);
+  transition: all 250ms linear;
+}
+
+.nav-hover:hover a {
+  color: var(--color-white);
   font-weight: bold;
   text-decoration: none;
   transition: all 250ms linear;
@@ -36,26 +36,34 @@ a {
 
 .current {
   color: var(--color-white);
-  font-weight: bold;
+  font-weight: 900;
   text-decoration: none;
 }
 
+.navbar {
+  background-color: var(--color-white);
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
 .logo {
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .logo:hover {
-  transform: scale(1.05);
+  opacity: .75;
   transition: all 250ms linear;
 }
 
 .social-icon:hover {
   transform: scale(1.1);
   transition: all 250ms linear;
-}
-
-.navbar a {
-  color: var(--color-white);
 }
 
 .skip-links a {
@@ -65,4 +73,56 @@ a {
 
 .skip-links a:focus {
   top: 0;
+}
+
+.close {
+  display: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topnav #myLinks {
+    display: block;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 40px;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .pad-bottom-half, .pad-b-1-2, .pad-top-half, .pad-t-1-2 {
+    padding-top: 0;
+    padding-bottom: .25rem;
+  }
+
+  .navbar a {
+    color: var(--color-white);
+    font-size: .9rem;
+  }
+
+  .nav-hover:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .nav-hover:hover a {
+    color: var(--color-white);
+  }
+
+  .i-32, .i--32 {
+    width: 48px;
+    height: 48px;
+  }
+
 }

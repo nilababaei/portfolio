@@ -18,9 +18,6 @@ patterns:
       - name: image
         type: string
         example: "athenaxnova/phone-3-1by1.jpg"
-      - name: button_text
-        type: string
-        example: "Check it out!"
-      - name: button_url
-        type: string
+      - name: url
+        type: url
         example: "/athenaxnova/"
