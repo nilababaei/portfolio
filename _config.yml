@@ -13,9 +13,9 @@ patternbot:
       brand-logos: "--color-secondary"
   rationales:
     typefaces.primary: |
-      Sanchez was selected because it is a clean and readable font that can be used for headings and body copy.
+      Roboto was selected because it is a clean and readable font that can be used for body copy.
     typefaces.secondary: |
-      Roboto was selected because it is a clean and readable font that can be used for headings and body copy.
+      Sanchez was selected because it is a clean and readable font that can be used for headings.
     colors.primary: |
       The primary colours are a set of monochromatic colours which are used for text & background colour.
     colors.secondary: |

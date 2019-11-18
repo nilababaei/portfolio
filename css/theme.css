@@ -11,8 +11,8 @@
   --color-youthnowcanada: #006ea8;
   --color-incubator13: #b7372d;
 
-  --font-primary: "Sanchez", serif;
-  --font-secondary: "Roboto", sans-serif;
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Sanchez", serif;
 }
 
 html {
@@ -24,6 +24,7 @@ p, .kilo, .milli, small, .micro, .nano, .pico {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
   color: var(--color-primary-dark);
   weight: bold;
 }
@@ -35,6 +36,7 @@ mark {
 a {
   text-decoration: none;
   color: var(--color-secondary);
+  font-family: var(--font-secondary);
 }
 
 a:hover {
