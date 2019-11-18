@@ -5,7 +5,7 @@ patternbot:
   title: "Nila Babaei"
   description: |
     I am a front-end developer who is extremely passionate about animal rights.
-  font_url: "https://use.typekit.net/jpd8nmx.css"
+  font_url: "https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900|Sanchez&display=swap"
   colors:
     background: "--color-white"
     accent: "--color-secondary"
@@ -13,7 +13,9 @@ patternbot:
       brand-logos: "--color-secondary"
   rationales:
     typefaces.primary: |
-      Proxima Nova Soft was selected because it is a clean and readable font that can be used for headings and body copy.
+      Sanchez was selected because it is a clean and readable font that can be used for headings and body copy.
+    typefaces.secondary: |
+      Roboto was selected because it is a clean and readable font that can be used for headings and body copy.
     colors.primary: |
       The primary colours are a set of monochromatic colours which are used for text & background colour.
     colors.secondary: |

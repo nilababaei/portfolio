@@ -3,7 +3,7 @@ layout: contact
 highlight_nav: contact
 ---
 
-<div id="main-content">
+<div class="pad-t-2" id="main-content">
   <div class="pad-t-2 pad-b-2 max-length gutter">
     {% pattern sections/header-text header="Contact me!" code="<h1>" closing-code="</h1>" %}
     <form method="POST" action="https://formspree.io/xqkzvryj">
@@ -12,7 +12,7 @@ highlight_nav: contact
           text="Full Name"
           id="text"
           type="Name"
-          placeholder="eg. Leia Organa, Han Solo, Luke Skywalker"
+          placeholder="eg. Han Solo"
           error="Please provide name"
           aria="name-error"
          %}
@@ -32,7 +32,7 @@ highlight_nav: contact
           text="Subject"
           id="subject"
           type="text"
-          placeholder="eg. Web developer needed!"
+          placeholder="eg. We want to hire you!"
           error="Please provide subject"
           aria="subject-error"
          %}
@@ -44,5 +44,5 @@ highlight_nav: contact
     </form>
   </div>
 
-  {% pattern banners/cta header="Interested in my work?" text="You can read through my case studies from projects that I have completed. The projects range from work with not-for-profit organizations to simple school projects that have been revamped this past year." button_text="Case Studies" button_url="/athenaxnova/" button_aria="Link to case studies page" %}
+  {% pattern banners/cta header="Interested in my work?" text="You can read through my case studies from projects that I have completed. The projects range from work with not-for-profit organizations to simple school projects that have been revamped this past year." button_text="Case Studies" button_url="/index/ #projects" button_aria="Link to case studies page" %}
 </div>

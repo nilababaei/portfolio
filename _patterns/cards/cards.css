@@ -1,1 +1,37 @@
+.dark-overlay {
+  background-color: rgba(55, 49, 62, 0.65);
+  display: none;
+}
 
+.link-icon {
+  display: none;
+}
+
+.card-text-style {
+  color: var(--color-white);
+}
+
+.card-text-section {
+  background-color: var(--color-primary-dark);
+}
+
+.maincard:hover .dark-overlay,
+.maincard:hover .link-icon {
+  display: block;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .card-text-section {
+    height: 250px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .card-text-section {
+    height: 175px;
+  }
+
+}

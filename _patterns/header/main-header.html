@@ -1,0 +1,45 @@
+<div class="header-fixed">
+  <div class="header-main-banner">
+    <div class="topnav-main">
+      <div class="grid grid-middle gutter-2">
+        <div class="unit xs-1-2 s-1-2 m-1 l-1">
+          <div class="pad-t pad-b">
+            <a class="main-logo" href="/" aria-label="Link to home page">
+              <img class="img-flex" src="/images/logo-light.svg" alt="Logo">
+            </a>
+          </div>
+        </div>
+
+        <div class="unit xs-1-2 s-1-2 m-0 l-0 text-right">
+          <a class="open" href="javascript:void(0);" onclick="myFunction()" >
+            <i class="icon i-48">
+              <svg><use xlink:href="/images/icons.svg#open" /></svg>
+            </i>
+          </a>
+
+          <a class="close" href="javascript:void(0);" onclick="myFunction()" >
+            <i class="icon i-48">
+              <svg><use xlink:href="/images/icons.svg#close" /></svg>
+            </i>
+          </a>
+        </div>
+      </div>
+
+      <nav class="nav-contain" role="navigation" id="nav" tabindex="0">
+        <ul class="navbar-main list-group text-center" id="myLinks">
+          <li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="nano" href="/index/" aria-label="Link to home page">HOME</a></li>
+          <li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover"><a class="nano" href="/index/ #projects" aria-label="Link to case studies">CASE STUDIES</a></li>
+          <!--<li class="push-0">
+            <ul class="nav-list list-group push-0">
+              <li class="push-0 pad-b-1-2 pad-t-1-2 nav-hover {% if page.highlight_nav == 'athenaxnova' %}current{% endif %}"><a class="nano" href="/athenaxnova/" aria-label="Link to athena x nova page">ATHENAXNOVA</a></li>
+              <li class="push-0 pad-b-1-2 pad-t-1-2 nav-hover {% if page.highlight_nav == 'bearcreeksanctuary' %}current{% endif %}"><a class="nano" href="/bearcreeksanctuary/" aria-label="Link to bear creek sanctuary page">BEAR CREEK SANCTUARY</a></li>
+              <li class="push-0 pad-b-1-2 pad-t-1-2 nav-hover {% if page.highlight_nav == 'youthnowcanada' %}current{% endif %}"><a class="nano" href="/youthnowcanada/" aria-label="Link to youth now canada page">YOUTH NOW CANADA</a></li>
+              <li class="push-0 pad-b-1-2 pad-t-1-2 nav-hover {% if page.highlight_nav == 'incubator13' %}current{% endif %} hidden"><a class="nano hidden" href="/incubator13/" aria-label="Link to incubator 13 page">INCUBATOR13</a></li>
+            </ul>
+          </li>-->
+          <li class="push-0 pad-t-1-2 pad-b-1-2 nav-hover {% if page.highlight_nav == 'contact' %}current{% endif %}"><a class="nano" href="/contact/" aria-label="Link to contact me page">CONTACT ME</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>

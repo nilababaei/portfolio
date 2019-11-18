@@ -32,3 +32,27 @@ patterns:
       - name: button_aria
         type: string
         example: "Link to case studies page"
+  cta-projects:
+    title: "CTA Banner"
+    description: |
+      The <i>CTA Banner</i> can be used on the project pages as the call-to-action.
+    fields:
+      - name: header
+        type: string
+        example: "Want to see my work?"
+      - name: text
+        type: string
+        example: "Check out some of the project I have completed the past few years! They range from work I have partnered up with to complete for non-for-profit organizations to working on school assignments to create a phenominal final product."
+      - name: button_text
+        type: string
+        example: "Case Studies"
+      - name: button_url
+        type: string
+        example: "/athenaxnova/"
+      - name: button_aria
+        type: string
+        example: "Link to case studies page"
+  image-banner:
+    title: "Image Banner"
+    description: |
+      The <i>Image Banner</i> can be used on the homepage as the call-to-action.

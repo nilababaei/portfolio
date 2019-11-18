@@ -1,14 +1,19 @@
 <div class="gutter-1-2">
   <a href="{{include.url}}" class="maincard">
     <div>
-      <div class="relative">
-        <div class="embed embed-1by1">
-          <img class="card-image embed-item" src="/images/{{include.image}}" alt="">
+      <div>
+        <div class="relative">
+          <div class="embed embed-1by1">
+            <img class="card-image embed-item" src="/images/{{include.image}}" alt="">
+          </div>
+          <div class="absolute pin-c embed embed-1by1">
+            <span class="embed-item dark-overlay"></span>
+          </div>
+          <i class="absolute pin-c link-icon icon i-48">
+            <svg><use xlink:href="/images/icons.svg#link" /></svg>
+          </i>
         </div>
-        <div class="absolute pin-c embed embed-1by1">
-          <span class="embed-item dark-overlay"></span>
-        </div>
-        <div class="absolute pin-lc cardtext-section island-1-2">
+        <div class="card-text-section island-1-2">
           <h3 class="push-0 mega card-text-style">{{include.title}}</h3>
           <p class="push-1-2 milli card-text-style">{{include.description}}</p>
         </div>

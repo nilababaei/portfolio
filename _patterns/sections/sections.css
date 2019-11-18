@@ -44,6 +44,11 @@
   font-weight: 700 !important;
 }
 
+.code-text-opacity {
+  color: var(--color-secondary);
+  font-weight: 700 !important;
+}
+
 .header-text {
   font-weight: 800;
   color: var(--color-primary-dark);
@@ -65,28 +70,6 @@
 
 .pillar-text {
   font-weight: 800 !important;
-}
-
-/*.cardtext-section {
-  display: none;
-}*/
-
-.dark-overlay {
-  background-color: rgba(55, 49, 62, 0.8);
-  display: none;
-}
-
-.card-text-style {
-  color: var(--color-white);
-}
-
-.cardtext-section {
-  display: none;
-}
-
-.maincard:hover .dark-overlay,
-.maincard:hover .cardtext-section {
-  display: block;
 }
 
 @media only screen and (min-width: 38em) {

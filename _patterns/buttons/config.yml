@@ -50,3 +50,17 @@ patterns:
       - name: aria
         type: string
         example: "Link to case studies page"
+  cta-btn:
+    title: "CTA Button"
+    description: |
+      The <i>CTA Button</i> is to be used on any call-to-action banners that navigate throughout the portfolio website.
+    fields:
+      - name: text
+        type: string
+        example: "Check it out!"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria
+        type: string
+        example: "Link to case studies page"

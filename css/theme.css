@@ -11,7 +11,8 @@
   --color-youthnowcanada: #006ea8;
   --color-incubator13: #b7372d;
 
-  --font-primary: "Proxima Soft", sans-serif;
+  --font-primary: "Sanchez", serif;
+  --font-secondary: "Roboto", sans-serif;
 }
 
 html {

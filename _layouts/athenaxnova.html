@@ -20,10 +20,14 @@
 </head>
 <body>
 
-  {% pattern header/header %}
-  <div role="main" id="main" tabindex="0">
+  <div class="pad-b-2">
+    {% pattern header/main-header %}
+  </div>
+
+  <div class="pad-t-2" role="main" id="main" tabindex="0">
     {{content}}
   </div>
+
   {% pattern footer/footer %}
 
   {% pattern sections/seo %}

@@ -3,19 +3,27 @@ layout: default
 highlight_nav: home
 ---
 
+<div>
+  {% pattern header/header %}
+</div>
+
 <div id="main-content">
   <div class="pad-t-2 pad-b-2 gutter">
     {% pattern sections/default-text
-      text1="Welcome to my website! My name is Nila and I am a front-end developer with a passion for animal rights. I have a diploma in Graphic Design and have a knack for problem-solving code."
-      text2="I spend my nights typing away in Atom until I can get something working perfectly. I spend my past-time painting, reading, meditating, and figuring out ways that I can make an impact to better the lives of animals. That can range from signing dozens of petitions in a row to having hour-long discussions with others about how animals are being treated."
-      text3=""
+      text1="I spend my nights typing away in Atom until I can get something working perfectly. I spend my past-time painting, reading, meditating, and figuring out ways that I can make an impact to better the lives of animals. That can range from signing dozens of petitions in a row to having hour-long discussions with others about how animals are being treated."
+      text2="The following sentences are values that I live by:"
+      text3="I believe that the time we spend on this beautiful planet should be of value.
+      I believe that we should protect this planet and all that surrounds us.
+      I believe that we all have the ability to make a difference and that any small change has a ripple effect for the greater good."
       code="<h1>"
       closing-code="</h1>"
       header="Who am I?"
     %}
   </div>
 
-  {% pattern banners/blockquote quote="“I am a front-end developer who is extremely passionate about animal rights.”" %}
+  <div>
+    {% pattern banners/blockquote quote="“I am a front-end developer who is extremely passionate about animal rights.”" %}
+  </div>
 
 <!--  <div class="pad-t-2 max-length text-center gutter">
     {% pattern sections/header-text header="Me as a moodboard." code="<h1>" closing-code="</h1>" %}
@@ -27,8 +35,10 @@ highlight_nav: home
     <img class="img-flex pad-t-2" src="/images/placeholder-3by2.jpg" alt="Image of persona">
   </div>-->
 
-  <div class="pad-t pad-b">
-    {% pattern sections/project-cards %}
+  <div id="projects">
+    <div class="pad-t pad-b">
+      {% pattern sections/project-cards %}
+    </div>
   </div>
 
   <div class="pad-t-2">

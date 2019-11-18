@@ -9,3 +9,8 @@ patterns:
     description: |
       The <i>Header</i> is created with a simple design that is meant to match the style of the business through simplicity and colour. The header can be combined with navigation, icons, images, and animation.
     height: "500"
+  main-header:
+    title: "Main Header"
+    description: |
+      The <i>Main Header</i> is created with a simple design that is meant to match the style of the business through simplicity and colour. This header is to be used on all pages but the homepage.
+    height: "500"
