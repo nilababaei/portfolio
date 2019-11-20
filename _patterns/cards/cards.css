@@ -11,6 +11,11 @@
   color: var(--color-white);
 }
 
+.card-text-style-p {
+  color: var(--color-white);
+  font-family: var(--font-primary);
+}
+
 .card-text-section {
   background-color: var(--color-primary-dark);
 }

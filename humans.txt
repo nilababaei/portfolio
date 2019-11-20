@@ -2,7 +2,7 @@
 
 # TEAM
 
-Designer & Developer: Nila Babaei <hey@nilababaei.ca>
+Designer & Developer: Nila Babaei <hello@nilababaei.ca>
 Site: http://nilababaei.ca
 GitHub: https://github.com/nilababaei
 Twitter: @nilababaei

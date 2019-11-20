@@ -5,7 +5,7 @@ patternbot:
   title: "Nila Babaei"
   description: |
     I am a front-end developer who is extremely passionate about animal rights.
-  font_url: "https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900|Sanchez&display=swap"
+  font_url: "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800|Sanchez&display=swap"
   colors:
     background: "--color-white"
     accent: "--color-secondary"
