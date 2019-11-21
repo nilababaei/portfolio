@@ -51,7 +51,7 @@ ul.breadcrumb li a:hover {
   display: none;
 }
 
-.img-color:hover .zoom-icon {
+/*.img-color:hover .zoom-icon {
   display: block;
   cursor: pointer;
 }
@@ -64,7 +64,7 @@ ul.breadcrumb li a:hover {
   opacity: 0.9;
 }
 
-/* Modal CSS */
+/* Modal CSS
 
 #myImg {
   cursor: pointer;
@@ -73,7 +73,7 @@ ul.breadcrumb li a:hover {
 
 #myImg:hover {
   opacity: .7;
-}
+}*/
 
 .modal {
   display: none;

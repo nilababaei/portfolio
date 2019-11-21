@@ -72,6 +72,13 @@
   font-weight: 800 !important;
 }
 
+.project-cards-bg {
+  background-image: url(/images/bg-image5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media only screen and (min-width: 38em) {
 
   .code-text, .header-text {

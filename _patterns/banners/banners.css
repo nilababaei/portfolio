@@ -16,11 +16,11 @@ h4 {
 }
 
 .index-cta {
-  background-image: url(/images/bg-image3.jpg);
+  background-image: url(/images/bg-image4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 5px;
+  margin-top: 40px;
 }
 
 .index-cta-col {
@@ -38,7 +38,24 @@ h2 .cta-text {
 @media only screen and (min-width: 38em) {
 
   .index-cta {
-    margin-top: 75px;
+    margin-top: 55px;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .index-cta {
+    margin-top: 55px;
+  }
+
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .index-cta {
+    margin-top: 35px;
   }
 
 }

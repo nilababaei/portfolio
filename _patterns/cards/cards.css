@@ -12,12 +12,14 @@
 }
 
 .card-text-style-p {
-  color: var(--color-white);
-  font-family: var(--font-primary);
+  color: var(--color-primary);
 }
 
 .card-text-section {
   background-color: var(--color-primary-dark);
+  border: 3px solid var(--color-primary-dark);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .maincard:hover .dark-overlay,
@@ -28,7 +30,7 @@
 @media only screen and (min-width: 38em) {
 
   .card-text-section {
-    height: 250px;
+    height: 350px;
   }
 
 }
@@ -36,7 +38,7 @@
 @media only screen and (min-width: 60em) {
 
   .card-text-section {
-    height: 175px;
+    height: 260px;
   }
 
 }

@@ -4,8 +4,8 @@ theme: jekyll_patternbot
 patternbot:
   title: "Nila Babaei"
   description: |
-    I am a front-end developer who is extremely passionate about animal rights.
-  font_url: "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800|Sanchez&display=swap"
+    I am a graphic designer who is extremely passionate about code and animal rights.
+  font_url: "https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700,900&display=swap"
   colors:
     background: "--color-white"
     accent: "--color-secondary"
@@ -13,9 +13,7 @@ patternbot:
       brand-logos: "--color-secondary"
   rationales:
     typefaces.primary: |
-      Roboto was selected because it is a clean and readable font that can be used for body copy.
-    typefaces.secondary: |
-      Sanchez was selected because it is a clean and readable font that can be used for headings.
+      Rubik was selected because it is a clean and readable font that can be used for headings and body copy.
     colors.primary: |
       The primary colours are a set of monochromatic colours which are used for text & background colour.
     colors.secondary: |
