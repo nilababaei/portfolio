@@ -1,3 +1,0 @@
----
-name: "YOUTH NOW CANADA"
----

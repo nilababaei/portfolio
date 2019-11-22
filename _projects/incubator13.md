@@ -1,3 +1,0 @@
----
-name: "INCUBATOR 13"
----

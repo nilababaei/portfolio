@@ -1,3 +1,0 @@
----
-name: "BEAR CREEK SANCTUARY"
----
