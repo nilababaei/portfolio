@@ -1,0 +1,8 @@
+description: |
+  The animation section is a collection of CSS animations that I developed to integrate into the layout of my website.
+
+patterns:
+  planet:
+    title: "Planet"
+    description: |
+      The <i>Planet</i> is a CSS animation developed for my Graphic Design passion project. It will be showcased on a banner.
