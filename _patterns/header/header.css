@@ -66,7 +66,7 @@
   background-color: var(--color-white);
 }
 
-.topnav {
+/*.topnav {
   overflow: hidden;
 }
 
@@ -74,13 +74,36 @@
   display: none;
 }
 
-
 .topnav-main {
   overflow: hidden;
 }
 
 .topnav-main #myLinks {
   display: none;
+}*/
+
+[type="checkbox"] + label::before {
+  top: -40em;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }
 
 .logo {
@@ -113,10 +136,6 @@
 
 .skip-links a:focus {
   top: 0;
-}
-
-.close {
-  display: none;
 }
 
 .current a {
@@ -184,7 +203,7 @@
   }
 
   .header-main-banner {
-    height: 20vh;
+    height: 150px;
   }
 
   .navbar-main li,

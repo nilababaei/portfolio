@@ -4,45 +4,47 @@ highlight_nav: contact
 ---
 
 <div class="pad-t-2" id="main-content">
-  <div class="pad-t-2 pad-b-2 max-length gutter">
-    {% pattern sections/header-text header="Contact me!" code="<h1>" closing-code="</h1>" %}
-    <form method="POST" action="https://formspree.io/xqkzvryj">
-      <div class="pad-t">
-        {% pattern forms/multi-input-field
-          text="Full Name"
-          id="text"
-          type="Name"
-          placeholder="eg. Han Solo"
-          error="Please provide name"
-          aria="name-error"
-         %}
-      </div>
-      <div class="pad-t">
-        {% pattern forms/multi-input-field
-          text="Email"
-          id="email"
-          type="Email"
-          placeholder="eg. hello@nilababaei.ca"
-          error="Please provide email"
-          aria="email-error"
-         %}
-      </div>
-      <div class="pad-t">
-        {% pattern forms/multi-input-field
-          text="Subject"
-          id="subject"
-          type="text"
-          placeholder="eg. We want to hire you!"
-          error="Please provide subject"
-          aria="subject-error"
-         %}
-      </div>
-      <div class="pad-t pad-b">
-        {% pattern forms/text-field text="Message" id="Message" %}
-      </div>
-      {% pattern buttons/form-btn %}
-    </form>
+  <div class="pad-t">
+    <div class="pad-t-2 pad-b-2 max-length gutter">
+      {% pattern sections/header-text header="Contact me!" code="<h1>" closing-code="</h1>" %}
+      <form method="POST" action="https://formspree.io/xqkzvryj">
+        <div class="pad-t">
+          {% pattern forms/multi-input-field
+            text="Full Name"
+            id="text"
+            type="Name"
+            placeholder="eg. Han Solo"
+            error="Please provide name"
+            aria="name-error"
+           %}
+        </div>
+        <div class="pad-t">
+          {% pattern forms/multi-input-field
+            text="Email"
+            id="email"
+            type="Email"
+            placeholder="eg. hello@nilababaei.ca"
+            error="Please provide email"
+            aria="email-error"
+           %}
+        </div>
+        <div class="pad-t">
+          {% pattern forms/multi-input-field
+            text="Subject"
+            id="subject"
+            type="text"
+            placeholder="eg. We want to hire you!"
+            error="Please provide subject"
+            aria="subject-error"
+           %}
+        </div>
+        <div class="pad-t pad-b">
+          {% pattern forms/text-field text="Message" id="Message" %}
+        </div>
+        {% pattern buttons/form-btn %}
+      </form>
+    </div>
   </div>
 
-  {% pattern banners/cta header="Interested in my work?" text="You can read through my case studies from projects that I have completed. The projects range from work with not-for-profit organizations to simple school projects that have been revamped this past year." button_text="Case Studies" button_url="/index/ #projects" button_aria="Link to case studies page" %}
+  {% pattern banners/cta header="Interested in my work?" text="You can read through my case studies from projects that I have completed. The projects range from work with not-for-profit organizations to simple school projects that have been revamped this past year." button_text="Projects" button_url="/index/ #projects" button_aria="Link to case studies page" %}
 </div>

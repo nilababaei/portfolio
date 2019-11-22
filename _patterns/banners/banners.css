@@ -20,42 +20,41 @@ h4 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 40px;
 }
 
 .index-cta-col {
   background-color: rgba(255, 255, 255, 0.75);
+  padding-top: 125px;
 }
 
 .cta-text {
   color: var(--color-primary-dark);
 }
 
+.cta-title {
+  color: var(--color-primary-dark);
+  font-weight: 900;
+}
+
 h2 .cta-text {
   font-weight: 900;
 }
 
-@media only screen and (min-width: 38em) {
-
-  .index-cta {
-    margin-top: 55px;
-  }
-
+.code-text-dark {
+  color: var(--color-primary-dark);
+  opacity: .3;
+  font-weight: 700;
+  font-size: 1.2em;
 }
 
 @media only screen and (min-width: 38em) {
 
-  .index-cta {
-    margin-top: 55px;
+  .index-cta-col {
+    padding-top: 150px;
   }
 
-}
-
-
-@media only screen and (min-width: 60em) {
-
-  .index-cta {
-    margin-top: 35px;
+  .code-text-dark, .header-text-light {
+    display: inline;
   }
 
 }

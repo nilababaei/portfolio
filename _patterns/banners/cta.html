@@ -1,7 +1,15 @@
 <div class="background-color pad-t-2 pad-b-2 gutter">
   <div class="max-length">
-    <h2 class="bold push-0">{{include.header}}</h2>
-    <p class="push-1-2">{{include.text}}</p>
-    {% pattern buttons/cta-btn text=include.button_text url=include.button_url aria=include.button_aria %}
+    <div>
+      <h3 class="code-text-dark medium push-0"> <xmp class="inline"><h2></xmp> </h3>
+      <h2 class="header-text-light push-0">{{include.header}}</h2>
+      <h3 class="code-text-dark medium push-0"> <xmp class="inline"></h2></xmp> </h3>
+    </div>
+    <h3 class="code-text-dark medium push-0"> <xmp class="inline"><p></xmp> </h3>
+    <p class="push-0">{{include.text}}</p>
+    <h3 class="code-text-dark medium push-0"> <xmp class="inline"></p></xmp> </h3>
+    <div class="block pad-t-1-2">
+      {% pattern buttons/cta-btn text=include.button_text url=include.button_url aria=include.button_aria %}
+    </div>
   </div>
 </div>

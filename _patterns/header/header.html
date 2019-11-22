@@ -9,8 +9,8 @@
     <div class="header-fixed">
       <div class="header-main-banner">
         <div class="topnav-main">
-          <div class="grid grid-middle gutter-2">
-            <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+          <div class="grid grid-middle">
+            <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-2">
               <div class="pad-t pad-b">
                 <a class="main-logo" href="/" aria-label="Link to home page">
                   <img class="img-flex" src="/images/logo-light.svg" alt="Logo">
@@ -18,106 +18,108 @@
               </div>
             </div>
 
-            <div class="unit xs-1-2 s-1-2 m-0 l-0 text-right">
-              <a class="open" href="javascript:void(0);" onclick="myFunction()" >
-                <i class="icon i-48">
-                  <svg><use xlink:href="/images/icons.svg#open" /></svg>
-                </i>
-              </a>
+            <input type="checkbox" id="hamburger-nav" class="nav-check unit xs-0">
+            <label for="hamburger-nav" class="nav-label unit xs-1-2 s-1-2 m-0 text-right gutter-2">
+              <i class="icon i-48">
+                <img class="img-flex nav-open" src="/images/svg/open.svg" alt="Open navigation">
+                <img class="img-flex nav-close" src="/images/svg/close.svg" alt="Close navigation">
+              </i>
+            </label>
 
-              <a class="close" href="javascript:void(0);" onclick="myFunction()" >
-                <i class="icon i-48">
-                  <svg><use xlink:href="/images/icons.svg#close" /></svg>
-                </i>
-              </a>
-            </div>
+            <nav class="nav unit xs-1 s-1 m-0 l-0" role="navigation" id="nav" tabindex="0">
+              <ul class="navbar-main list-group text-center push-0" id="myLinks">
+                <li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="nano" href="/index/" aria-label="Link to home page">HOME</a></li>
+                <li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover"><a class="nano" href="/index/ #projects" aria-label="Link to case studies">PROJECTS</a></li>
+                <li class="push-0 pad-t-1-2 pad-b-1-2 nav-hover {% if page.highlight_nav == 'contact' %}current{% endif %}"><a class="nano" href="/contact/" aria-label="Link to contact me page">CONTACT ME</a></li>
+              </ul>
+            </nav>
+
+            <nav class="unit xs-0 s-0 m-1-2 l-1-2" role="navigation" id="nav" tabindex="0">
+              <ul class="navbar-main list-group text-center push-0" id="myLinks">
+                <li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="nano" href="/index/" aria-label="Link to home page">HOME</a></li>
+                <li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover"><a class="nano" href="/index/ #projects" aria-label="Link to case studies">PROJECTS</a></li>
+                <li class="push-0 pad-t-1-2 pad-b-1-2 nav-hover {% if page.highlight_nav == 'contact' %}current{% endif %}"><a class="nano" href="/contact/" aria-label="Link to contact me page">CONTACT ME</a></li>
+              </ul>
+            </nav>
           </div>
-
-          <nav class="nav-contain" role="navigation" id="nav" tabindex="0">
-            <ul class="navbar-main list-group text-center push-0" id="myLinks">
-              <li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="nano" href="/index/" aria-label="Link to home page">HOME</a></li>
-              <li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover"><a class="nano" href="/index/ #projects" aria-label="Link to case studies">PORTFOLIO</a></li>
-              <li class="push-0 pad-t-1-2 pad-b-1-2 nav-hover {% if page.highlight_nav == 'contact' %}current{% endif %}"><a class="nano" href="/contact/" aria-label="Link to contact me page">CONTACT ME</a></li>
-            </ul>
-          </nav>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="pad-t-2">
+  <div>
     {% pattern banners/image-banner %}
   </div>
 
   <!--
   <div class="header-banner">
-    <div class="topnav">
-      <div class="grid grid-middle gutter-2">
-        <div class="unit xs-1-2 s-1-2 m-1 l-1">
-          <div class="pad-t pad-b">
-            <a class="logo" href="/" aria-label="Link to home page">
-              <img class="img-flex" src="/images/logo-light.svg" alt="Logo">
-            </a>
-          </div>
-        </div>
+  <div class="topnav">
+  <div class="grid grid-middle gutter-2">
+  <div class="unit xs-1-2 s-1-2 m-1 l-1">
+  <div class="pad-t pad-b">
+  <a class="logo" href="/" aria-label="Link to home page">
+  <img class="img-flex" src="/images/logo-light.svg" alt="Logo">
+</a>
+</div>
+</div>
 
-        <div class="unit xs-1-2 s-1-2 m-0 l-0 text-right">
-          <a class="open" href="javascript:void(0);" onclick="myFunction()" >
-            <i class="icon i-48">
-              <svg><use xlink:href="/images/icons.svg#open" /></svg>
-            </i>
-          </a>
+<div class="unit xs-1-2 s-1-2 m-0 l-0 text-right">
+<a class="open" href="javascript:void(0);" onclick="myFunction()" >
+<i class="icon i-48">
+<svg><use xlink:href="/images/icons.svg#open" /></svg>
+</i>
+</a>
 
-          <a class="close" href="javascript:void(0);" onclick="myFunction()" >
-            <i class="icon i-48">
-              <svg><use xlink:href="/images/icons.svg#close" /></svg>
-            </i>
-          </a>
-        </div>
-      </div>
+<a class="close" href="javascript:void(0);" onclick="myFunction()" >
+<i class="icon i-48">
+<svg><use xlink:href="/images/icons.svg#close" /></svg>
+</i>
+</a>
+</div>
+</div>
 
-      <nav class="nav-contain" role="navigation" id="nav" tabindex="0">
-        <ul class="navbar list-group text-center" id="myLinks">
-          <li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="nano" href="/index/" aria-label="Link to home page">HOME</a></li>
-          <li class="push-0">
-            <ul class="list-group push-0">
-              <li class="push-0 pad-b-1-2 pad-t-1-2 nav-hover {% if page.highlight_nav == 'athenaxnova' %}current{% endif %}"><a class="nano" href="/athenaxnova/" aria-label="Link to athena x nova page">ATHENAXNOVA</a></li>
-              <li class="push-0 pad-b-1-2 pad-t-1-2 nav-hover {% if page.highlight_nav == 'bearcreeksanctuary' %}current{% endif %}"><a class="nano" href="/bearcreeksanctuary/" aria-label="Link to bear creek sanctuary page">BEAR CREEK SANCTUARY</a></li>
-              <li class="push-0 pad-b-1-2 pad-t-1-2 nav-hover {% if page.highlight_nav == 'youthnowcanada' %}current{% endif %}"><a class="nano" href="/youthnowcanada/" aria-label="Link to youth now canada page">YOUTH NOW CANADA</a></li>
-              <li class="push-0 pad-b-1-2 pad-t-1-2 nav-hover {% if page.highlight_nav == 'incubator13' %}current{% endif %} hidden"><a class="nano hidden" href="/incubator13/" aria-label="Link to incubator 13 page">INCUBATOR13</a></li>
-            </ul>
-          </li>
-          <li class="push-0 pad-t-1-2 pad-b-1-2 nav-hover {% if page.highlight_nav == 'contact' %}current{% endif %}"><a class="nano" href="/contact/" aria-label="Link to contact me page">CONTACT ME</a></li>
-        </ul>
-      </nav>
-    </div>
+<nav class="nav-contain" role="navigation" id="nav" tabindex="0">
+<ul class="navbar list-group text-center" id="myLinks">
+<li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="nano" href="/index/" aria-label="Link to home page">HOME</a></li>
+<li class="push-0">
+<ul class="list-group push-0">
+<li class="push-0 pad-b-1-2 pad-t-1-2 nav-hover {% if page.highlight_nav == 'athenaxnova' %}current{% endif %}"><a class="nano" href="/athenaxnova/" aria-label="Link to athena x nova page">ATHENAXNOVA</a></li>
+<li class="push-0 pad-b-1-2 pad-t-1-2 nav-hover {% if page.highlight_nav == 'bearcreeksanctuary' %}current{% endif %}"><a class="nano" href="/bearcreeksanctuary/" aria-label="Link to bear creek sanctuary page">BEAR CREEK SANCTUARY</a></li>
+<li class="push-0 pad-b-1-2 pad-t-1-2 nav-hover {% if page.highlight_nav == 'youthnowcanada' %}current{% endif %}"><a class="nano" href="/youthnowcanada/" aria-label="Link to youth now canada page">YOUTH NOW CANADA</a></li>
+<li class="push-0 pad-b-1-2 pad-t-1-2 nav-hover {% if page.highlight_nav == 'incubator13' %}current{% endif %} hidden"><a class="nano hidden" href="/incubator13/" aria-label="Link to incubator 13 page">INCUBATOR13</a></li>
+</ul>
+</li>
+<li class="push-0 pad-t-1-2 pad-b-1-2 nav-hover {% if page.highlight_nav == 'contact' %}current{% endif %}"><a class="nano" href="/contact/" aria-label="Link to contact me page">CONTACT ME</a></li>
+</ul>
+</nav>
+</div>
 
-    <div class="absolute pin-bc pad-b-2">
-      <div class="inline">
-        <a class="island-1-8" href="mailto:hello@nilababaei.ca" target="_blank" >
-          <i class="icon i-32">
-            <svg class="social-icon"><use xlink:href="/images/icons.svg#email" /></svg>
-          </i>
-        </a>
+<div class="absolute pin-bc pad-b-2">
+<div class="inline">
+<a class="island-1-8" href="mailto:hello@nilababaei.ca" target="_blank" >
+<i class="icon i-32">
+<svg class="social-icon"><use xlink:href="/images/icons.svg#email" /></svg>
+</i>
+</a>
 
-        <a class="island-1-8" href="https://www.linkedin.com/in/nilababaei/" target="_blank" >
-          <i class="icon i-32">
-            <svg class="social-icon"><use xlink:href="/images/icons.svg#linkedin" /></svg>
-          </i>
-        </a>
+<a class="island-1-8" href="https://www.linkedin.com/in/nilababaei/" target="_blank" >
+<i class="icon i-32">
+<svg class="social-icon"><use xlink:href="/images/icons.svg#linkedin" /></svg>
+</i>
+</a>
 
-        <a class="island-1-8" href="https://github.com/nilababaei" target="_blank" >
-          <i class="icon i-32">
-            <svg class="social-icon"><use xlink:href="/images/icons.svg#github" /></svg>
-          </i>
-        </a>
+<a class="island-1-8" href="https://github.com/nilababaei" target="_blank" >
+<i class="icon i-32">
+<svg class="social-icon"><use xlink:href="/images/icons.svg#github" /></svg>
+</i>
+</a>
 
-        <a class="island-1-8" href="https://www.behance.net/babaeinila" target="_blank" >
-          <i class="icon i-32">
-            <svg class="social-icon"><use xlink:href="/images/icons.svg#behance" /></svg>
-          </i>
-        </a>
-      </div>
-    </div>-->
-  </div>
+<a class="island-1-8" href="https://www.behance.net/babaeinila" target="_blank" >
+<i class="icon i-32">
+<svg class="social-icon"><use xlink:href="/images/icons.svg#behance" /></svg>
+</i>
+</a>
+</div>
+</div>-->
+</div>
 </div>

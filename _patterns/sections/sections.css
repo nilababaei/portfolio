@@ -1,17 +1,33 @@
 .background-color-athenaxnova {
   background-color: var(--color-athenaxnova);
+  background-image: url(/images/bg-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .background-color-bearcreeksanctuary {
   background-color: var(--color-bearcreeksanctuary);
+  background-image: url(/images/bg-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .background-color-youthnowcanada {
   background-color: var(--color-youthnowcanada);
+  background-image: url(/images/bg-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .background-color-incubator13 {
   background-color: var(--color-incubator13);
+  background-image: url(/images/bg-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .color-athenaxnova {
@@ -41,12 +57,17 @@
 .code-text {
   color: var(--color-secondary);
   opacity: .3;
-  font-weight: 700 !important;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.code-text-match {
+  font-size: 1.2em;
 }
 
 .code-text-opacity {
   color: var(--color-secondary);
-  font-weight: 700 !important;
+  font-weight: 700;
 }
 
 .header-text {
@@ -64,12 +85,12 @@
 }
 
 .text-white {
-  font-weight: 200 !important;
+  font-weight: 200;
   color: var(--color-white);
 }
 
 .pillar-text {
-  font-weight: 800 !important;
+  font-weight: 600;
 }
 
 .project-cards-bg {

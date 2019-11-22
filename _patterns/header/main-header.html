@@ -1,37 +1,37 @@
 <div class="header-fixed">
-  <div class="header-main-banner">
-    <div class="pad-b-2">
-      <div class="header-fixed">
-        <div class="header-main-banner">
-          <div class="topnav-main">
-            <div class="grid grid-middle gutter-2">
-              <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-                <div class="pad-t pad-b">
-                  <a class="main-logo" href="/" aria-label="Link to home page">
-                    <img class="img-flex" src="/images/logo-light.svg" alt="Logo">
-                  </a>
-                </div>
-              </div>
-
-              <div class="unit xs-1-2 s-1-2 m-0 l-0 text-right">
-                <a class="open" href="javascript:void(0);" onclick="myFunction()" >
-                  <i class="icon i-48">
-                    <svg><use xlink:href="/images/icons.svg#open" /></svg>
-                  </i>
-                </a>
-
-                <a class="close" href="javascript:void(0);" onclick="myFunction()" >
-                  <i class="icon i-48">
-                    <svg><use xlink:href="/images/icons.svg#close" /></svg>
-                  </i>
+  <div class="pad-b-2">
+    <div class="header-fixed">
+      <div class="header-main-banner">
+        <div class="topnav-main">
+          <div class="grid grid-middle">
+            <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-2">
+              <div class="pad-t pad-b">
+                <a class="main-logo" href="/" aria-label="Link to home page">
+                  <img class="img-flex" src="/images/logo-light.svg" alt="Logo">
                 </a>
               </div>
             </div>
 
-            <nav class="nav-contain" role="navigation" id="nav" tabindex="0">
+            <input type="checkbox" id="hamburger-nav" class="nav-check unit xs-0">
+            <label for="hamburger-nav" class="nav-label unit xs-1-2 s-1-2 m-0 text-right gutter-2">
+              <i class="icon i-48">
+                <img class="img-flex nav-open" src="/images/svg/open.svg" alt="Open navigation">
+                <img class="img-flex nav-close" src="/images/svg/close.svg" alt="Close navigation">
+              </i>
+            </label>
+
+            <nav class="nav unit xs-1 s-1 m-0 l-0" role="navigation" id="nav" tabindex="0">
               <ul class="navbar-main list-group text-center push-0" id="myLinks">
                 <li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="nano" href="/index/" aria-label="Link to home page">HOME</a></li>
-                <li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover"><a class="nano" href="/index/ #projects" aria-label="Link to case studies">PORTFOLIO</a></li>
+                <li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover"><a class="nano" href="/index/ #projects" aria-label="Link to case studies">PROJECTS</a></li>
+                <li class="push-0 pad-t-1-2 pad-b-1-2 nav-hover {% if page.highlight_nav == 'contact' %}current{% endif %}"><a class="nano" href="/contact/" aria-label="Link to contact me page">CONTACT ME</a></li>
+              </ul>
+            </nav>
+
+            <nav class="unit xs-0 s-0 m-1-2 l-1-2" role="navigation" id="nav" tabindex="0">
+              <ul class="navbar-main list-group text-center push-0" id="myLinks">
+                <li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="nano" href="/index/" aria-label="Link to home page">HOME</a></li>
+                <li class="push-0 pad-t-1-2 pad-b-1-2 nav-border nav-hover"><a class="nano" href="/index/ #projects" aria-label="Link to case studies">PROJECTS</a></li>
                 <li class="push-0 pad-t-1-2 pad-b-1-2 nav-hover {% if page.highlight_nav == 'contact' %}current{% endif %}"><a class="nano" href="/contact/" aria-label="Link to contact me page">CONTACT ME</a></li>
               </ul>
             </nav>
