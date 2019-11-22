@@ -66,22 +66,6 @@
   background-color: var(--color-white);
 }
 
-/*.topnav {
-  overflow: hidden;
-}
-
-.topnav #myLinks {
-  display: none;
-}
-
-.topnav-main {
-  overflow: hidden;
-}
-
-.topnav-main #myLinks {
-  display: none;
-}*/
-
 [type="checkbox"] + label::before {
   top: -40em;
 }
