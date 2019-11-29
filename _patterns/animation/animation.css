@@ -1,0 +1,28 @@
+.main-container {
+  background-color: var(--color-secondary);
+}
+
+.main-container2 {
+  background-color: var(--color-accent);
+}
+
+.main-container3 {
+  background-color: var(--color-accent);
+}
+
+.main-container4 {
+  background-color: var(--color-secondary);
+}
+
+.bear,
+.chicken,
+.cow,
+.rabbit {
+  animation: float 3s ease-out infinite;
+}
+
+@keyframes float {
+
+
+
+}
