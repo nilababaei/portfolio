@@ -1,28 +1,25 @@
-.main-container {
-  background-color: var(--color-secondary);
+.animation-text {
+  color: var(--color-primary-dark);
 }
 
-.main-container2 {
-  background-color: var(--color-accent);
+.cow-container,
+.bear-container {
+  background-color: var(--color-primary);
 }
 
-.main-container3 {
-  background-color: var(--color-accent);
+.chicken-container,
+.rabbit-container {
+  background-color: var(--color-primary-medium);
 }
 
-.main-container4 {
-  background-color: var(--color-secondary);
+.light-animationtext {
+  color: var(--color-primary);
 }
 
-.bear,
-.chicken,
-.cow,
-.rabbit {
-  animation: float 3s ease-out infinite;
+.dark-animationtext {
+  color: var(--color-primary-medium);
 }
 
-@keyframes float {
-
-
-
+.bear {
+  transform: scale(3);
 }

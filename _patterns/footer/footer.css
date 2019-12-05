@@ -17,6 +17,10 @@
   transition: all 250ms linear;
 }
 
+.copyright-text small {
+  color: var(--color-white);
+}
+
 @media only screen and (min-width: 38em) {
 
   .logo-footer {
