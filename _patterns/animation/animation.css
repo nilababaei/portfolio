@@ -20,6 +20,191 @@
   color: var(--color-primary-medium);
 }
 
+#bear:hover #left-bearear,
+#bear:hover #right-bearear {
+  animation: move-up 500ms linear forwards;
+}
+
+@keyframes move-up {
+
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-8px);
+  }
+
+}
+
+#bear:hover #left-beareye,
+#bear:hover #right-beareye,
+#chicken:hover #left-chickeneye,
+#chicken:hover #right-chickeneye,
+#rabbit:hover #left-rabbiteye,
+#rabbit:hover #right-rabbiteye,
+#cow:hover #left-coweye,
+#cow:hover #right-coweye {
+  animation: wiggle 750ms linear forwards infinite;
+}
+
+@keyframes wiggle {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5px);
+  }
+
+  50% {
+    transform: translateX(0px);
+  }
+
+  75% {
+    transform: translateX(5px);
+  }
+
+
+  100% {
+    transform: translateX(0px);
+  }
+
+}
+
+#chicken:hover #chickenhair {
+  animation: jiggle 250ms linear forwards infinite;
+}
+
+@keyframes jiggle {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(-1deg);
+  }
+
+  50% {
+    transform: rotate(0);
+  }
+
+  75% {
+    transform: rotate(1deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+
+}
+
+#chicken:hover #right-glub {
+  animation: right-glub 250ms linear forwards infinite;
+}
+
+#chicken:hover #left-glub {
+  animation: left-glub 250ms linear forwards infinite;
+}
+
+@keyframes right-glub {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(-.5deg);
+  }
+
+  50% {
+    transform: rotate(0);
+  }
+
+  75% {
+    transform: rotate(.5deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+
+}
+
+@keyframes left-glub {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(.5deg);
+  }
+
+  50% {
+    transform: rotate(0);
+  }
+
+  75% {
+    transform: rotate(-.5deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+
+}
+
+#cow:hover #bottom-cowsnout {
+  animation: move-down 500ms linear forwards infinite;
+}
+
+@keyframes move-down {
+
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(2px);
+  }
+
+}
+
+#rabbit:hover #rabbithead,
+#rabbit:hover #rabbitface,
+#rabbit:hover #left-rabbitear,
+#rabbit:hover #right-rabbitear,
+#rabbit:hover #rabbitnose {
+  animation: head-wiggle 500ms linear forwards infinite;
+}
+
+@keyframes head-wiggle {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(-.4deg);
+  }
+
+  50% {
+    transform: rotate(0);
+  }
+
+  75% {
+    transform: rotate(.4deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+
+}
+
 svg {
   transform: translateX(20px);
 }
