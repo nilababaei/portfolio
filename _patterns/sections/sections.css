@@ -100,6 +100,10 @@
   background-size: cover;
 }
 
+.span {
+  bottom: 45px;
+}
+
 @media only screen and (min-width: 38em) {
 
   .code-text, .header-text {
@@ -108,6 +112,18 @@
 
   .breadcrumb li {
     display: inline;
+  }
+
+  .span {
+    bottom: 100px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .span {
+    bottom: 90px;
   }
 
 }

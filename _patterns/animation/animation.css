@@ -205,13 +205,13 @@
 
 }
 
-svg {
+.animation svg {
   transform: translateX(20px);
 }
 
 @media only screen and (min-width: 38em) {
 
-  svg {
+  .animation svg {
     transform: translateX(80px);
   }
 
@@ -225,7 +225,7 @@ svg {
 
 @media only screen and (min-width: 60em) {
 
-  svg {
+  .animation svg {
     transform: translateX(50px);
   }
 

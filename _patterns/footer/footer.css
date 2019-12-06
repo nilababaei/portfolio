@@ -7,28 +7,20 @@
   background-color: var(--color-primary-dark);
 }
 
-.logo-footer {
-  max-width: 200px !important;
-  margin: 0 auto;
-}
-
-.logo-footer:hover {
-  transform: scale(1.05);
-  transition: all 250ms linear;
-}
-
 .copyright-text small {
   color: var(--color-white);
 }
 
 @media only screen and (min-width: 38em) {
 
-  .logo-footer {
-    margin: 0;
-  }
-
   .social-section {
     text-align: right;
+  }
+
+  .copyright-text {
+    text-align: left;
+    padding: 0;
+    margin: 0;
   }
 
 }
