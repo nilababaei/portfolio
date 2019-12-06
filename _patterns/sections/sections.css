@@ -100,6 +100,25 @@
   background-size: cover;
 }
 
+.notfound-banner {
+  background-image: url(/images/bg-image5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.notfound-header {
+  font-size: 10rem;
+  color: var(--color-incubator13);
+  padding-bottom: 2.5rem;
+}
+
+.notfound-body {
+  font-size: 1rem;
+  color: var(--color-incubator13);
+}
+
 .span {
   bottom: 45px;
 }

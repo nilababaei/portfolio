@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="description" content="{{page.desc}}">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="ICBM" content="45.41117.-75.69812">
+  <meta name="geo.position" content="45.41117.-75.69812">
+  <meta name="geo.region" content="ca-on">
+  <meta name="geo.placename" content="Ottawa">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{page.title}}">
+  <meta property="og:url" content="https://nilababaei.ca{{page.url}}">
+  <meta property="og:image" content="https://nilababaei.ca/images/logo.svg">
+  <meta property="og:site_name" content="Nila Babaei">
+  <meta property="og:description" content="{{page.desc}}">
+  <meta property="og:locale" content="en_CA">
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div role="main" id="main" tabindex="0">
+    {{content}}
+  </div>
+
+  {% pattern sections/seo %}
+
+  <script src="/js/main.js"></script>
+
+</body>
+</html>

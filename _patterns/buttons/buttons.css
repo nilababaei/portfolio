@@ -8,6 +8,15 @@
   color: var(--color-primary-dark);
 }
 
+.transparent-btn {
+  border-color: var(--color-primary-dark);
+  border-radius: 100px;
+}
+
+.transparent-btn a {
+  color: var(--color-primary-dark);
+}
+
 .card-btn {
   background-color: var(--color-primary-dark);
   border-color: var(--color-primary-dark);
@@ -28,6 +37,16 @@
   color: var(--color-white);
 }
 
+.transparenthover-btn {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+  border-radius: 100px;
+}
+
+.transparenthover-btn a {
+  color: var(--color-white);
+}
+
 .btn-ghost:hover a {
   color: var(--color-primary-dark);
   text-decoration: none;
@@ -40,6 +59,12 @@
   transition: all 250ms linear;
 }
 
+.transparenthover-btn:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: var(--color-primary-dark);
+  transition: all 250ms linear;
+}
+
 .light-btn:hover {
   background-color: var(--color-primary-dark);
   border-color: var(--color-primary-dark);
@@ -47,6 +72,17 @@
 }
 
 .light-btn:hover a {
+  color: var(--color-white);
+  transition: all 250ms linear;
+}
+
+.transparent-btn:hover {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+  transition: all 250ms linear;
+}
+
+.transparent-btn:hover a {
   color: var(--color-white);
   transition: all 250ms linear;
 }

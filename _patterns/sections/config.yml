@@ -197,7 +197,15 @@ patterns:
       - name: video
         type: string
         example: "bearcreeksanctuary-parallax.mp4"
+  notfound-style:
+    title: "Not Found"
+    description: |
+      The <i>404</i> pattern will be used on the 404 page as the main content.
   seo:
     title: "SEO"
     description: |
       The <i>SEO</i> will be used on every layout page as it contains the general data for search engine optimization.
+  span:
+    title: "Span"
+    description: |
+      The <i>Span</i> will be used on the homepage to target to id for the projects.

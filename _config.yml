@@ -22,19 +22,9 @@ patternbot:
       The accent colour is to be used as a hover state throughout the website.
   layouts:
     default: |
-      The default layout should be used for almost every page, it includes the website's primary header.
-    project: |
-      The project layout should be used for every project page, it includes the basic layout of every project page with text, images, and sections.
-    contact: |
-      The contact layout should be used for the contact page as it holds the SEO information.
-    athenaxnova: |
-      The athenaxnova layout should be used for the contact page as it holds the SEO information.
-    bearcreeksanctuary: |
-      The bearcreeksanctuary layout should be used for the contact page as it holds the SEO information.
-    youthnowcanada: |
-      The youthnowcanada layout should be used for the contact page as it holds the SEO information.
-    incubator13: |
-      The incubator13 layout should be used for the contact page as it holds the SEO information.
+      The default layout should be used for every page, it includes the website's primary footer.
+    special: |
+      The special layout should be used for the 404 page. It does not include the footer.
 
 collections:
   projects:

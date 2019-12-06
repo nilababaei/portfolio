@@ -64,3 +64,31 @@ patterns:
       - name: aria
         type: string
         example: "Link to case studies page"
+  transparent-btn:
+    title: "Transparent Button"
+    description: |
+      The <i>Transparent Button</i> is to be used on the 404 page.
+    fields:
+      - name: text
+        type: string
+        example: "Case Studies"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria
+        type: string
+        example: "Link to case studies page"
+  transparenthover-btn:
+    title: "Transparent Hover Button"
+    description: |
+      The <i>Transparent Hover Button</i> is to be used on the 404 page.
+    fields:
+      - name: text
+        type: string
+        example: "Submit"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria
+        type: string
+        example: "Link to case studies page"
