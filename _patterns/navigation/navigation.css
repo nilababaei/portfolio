@@ -27,6 +27,18 @@
   background-color: var(--color-secondary);
 }
 
+#image-1-control:focus ~ .carousel-inner [for="image-1-control"],
+#image-2-control:focus ~ .carousel-inner [for="image-2-control"],
+#image-3-control:focus ~ .carousel-inner [for="image-3-control"],
+#image-4-control:focus ~ .carousel-inner [for="image-4-control"],
+#image-5-control:focus ~ .carousel-inner [for="image-5-control"],
+#image-6-control:focus ~ .carousel-inner [for="image-6-control"],
+#image-7-control:focus ~ .carousel-inner [for="image-7-control"] {
+  outline-style: solid;
+  outline-width: 3px;
+  outline-color: var(--color-secondary);
+}
+
 ul.breadcrumb li a {
   color: var(--color-primary);
   font-weight: bold;
